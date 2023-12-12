@@ -1,0 +1,1218 @@
+fileFormatVersion: 2
+guid: cf0d4725f2d094a499c7f3676df0359c
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Girl_03_3_updated:Scapula_R' has translation
+      animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 85
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0.96
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Girl_03_3_updated:Root_M
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:Hip_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:Hip_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:Knee_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:Knee_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:Ankle_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:Ankle_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:RootPart1_M
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:Spine1_M
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:Neck_M
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:Head_M
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:Scapula_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:Scapula_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:Shoulder_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:Shoulder_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:Elbow_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:Elbow_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:Wrist_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:Wrist_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:Toes_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:Toes_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:ThumbFinger1_L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:ThumbFinger2_L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:ThumbFinger3_L
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:IndexFinger1_L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:IndexFinger2_L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:IndexFinger3_L
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:MiddleFinger1_L
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:MiddleFinger2_L
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:MiddleFinger3_L
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:RingFinger1_L
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:RingFinger2_L
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:RingFinger3_L
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:PinkyFinger1_L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:PinkyFinger2_L
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:PinkyFinger3_L
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:ThumbFinger1_R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:ThumbFinger2_R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:IndexFinger1_R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:IndexFinger2_R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:IndexFinger3_R
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:MiddleFinger1_R
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:RingFinger1_R
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:RingFinger2_R
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:RingFinger3_R
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:PinkyFinger1_R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Girl_03_3_updated:Chest_M
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Cheers_option04(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:Mesh
+      parentName: Cheers_option04(Clone)
+      position: {x: -0, y: -0.024619998, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:Girl_03
+      parentName: Girl_03_3_updated:Mesh
+      position: {x: -0.00000015258775, y: 1.67139, z: 0.06703186}
+      rotation: {x: 0.00000008146034, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:Hair_03
+      parentName: Girl_03_3_updated:Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.00000008146034, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:Assets
+      parentName: Girl_03_3_updated:Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:group1
+      parentName: Girl_03_3_updated:Assets
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:Hat_01
+      parentName: Girl_03_3_updated:group1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.00000008146034, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:Shoes_01
+      parentName: Girl_03_3_updated:group1
+      position: {x: 0.16895008, y: 0.1553601, z: 0.08554467}
+      rotation: {x: 0.00000008146034, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Girl_03_3_updated:Locket_01
+      parentName: Girl_03_3_updated:group1
+      position: {x: -6.41429, y: 0, z: -8.426045}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Girl_03_3_updated:Variation_01
+      parentName: Girl_03_3_updated:group1
+      position: {x: -0, y: 1.5960755, z: 0.070739746}
+      rotation: {x: 0.00000008146034, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:Group
+      parentName: Cheers_option04(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:MotionSystem
+      parentName: Girl_03_3_updated:Group
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:MainSystem
+      parentName: Girl_03_3_updated:MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:Main
+      parentName: Girl_03_3_updated:MainSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:FKSystem
+      parentName: Girl_03_3_updated:MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:FKFollowRoot
+      parentName: Girl_03_3_updated:FKSystem
+      position: {x: -3.680352e-17, y: 1.056704, z: -0.8153023}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:FKOffsetRoot_M
+      parentName: Girl_03_3_updated:FKFollowRoot
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.50197375, y: -0.49801844, z: -0.50197375, w: 0.49801844}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:FKExtraRoot_M
+      parentName: Girl_03_3_updated:FKOffsetRoot_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:FKRoot_M
+      parentName: Girl_03_3_updated:FKExtraRoot_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0.042365827, w: 0.9991022}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:HipSwingerOffset_M
+      parentName: Girl_03_3_updated:FKRoot_M
+      position: {x: -0.097176805, y: 4.179297e-11, z: -0.44441736}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:HipSwinger_M
+      parentName: Girl_03_3_updated:HipSwingerOffset_M
+      position: {x: -2.842171e-16, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.64536196, w: 0.7638769}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:HipSwingerStabilizerTarget
+      parentName: Girl_03_3_updated:FKRoot_M
+      position: {x: -0.097176805, y: 4.1792986e-11, z: -0.44441736}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:HipSwingReverse
+      parentName: Girl_03_3_updated:FKRoot_M
+      position: {x: -0.19435361, y: 1.2434498e-16, z: -2.6875778e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:HipSwingReversePart1
+      parentName: Girl_03_3_updated:HipSwingReverse
+      position: {x: 0.097176805, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.3436009, w: 0.9391158}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:HipSwingReverseRoot
+      parentName: Girl_03_3_updated:HipSwingReversePart1
+      position: {x: 0.097176805, y: -1.2434498e-16, z: 2.6875778e-16}
+      rotation: {x: 0, y: 0, z: 0.3436009, w: 0.9391158}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:HipSwingReverseXPart1
+      parentName: Girl_03_3_updated:HipSwingReverse
+      position: {x: 0.097176805, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.3436009, w: 0.9391158}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:FKXRoot_M
+      parentName: Girl_03_3_updated:FKExtraRoot_M
+      position: {x: -0.01755421, y: 0.06443157, z: 1.5777218e-32}
+      rotation: {x: 0, y: 0, z: 0.32362604, w: 0.94618505}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKSystem
+      parentName: Girl_03_3_updated:MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKJoints
+      parentName: Girl_03_3_updated:IKSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKParentConstraintRoot_M
+      parentName: Girl_03_3_updated:IKJoints
+      position: {x: -3.680352e-17, y: 1.9064363, z: 0.0991612}
+      rotation: {x: 0.50197375, y: -0.49801844, z: -0.50197375, w: 0.49801844}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKXOffsetRoot_M
+      parentName: Girl_03_3_updated:IKParentConstraintRoot_M
+      position: {x: -2.842171e-16, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKXRoot_M
+      parentName: Girl_03_3_updated:IKXOffsetRoot_M
+      position: {x: 0.85693955, y: -0.90771306, z: -1.5116458e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKfake0Spine_M
+      parentName: Girl_03_3_updated:IKParentConstraintRoot_M
+      position: {x: 0.85693955, y: -0.90771306, z: -1.5116458e-16}
+      rotation: {x: -5.2660646e-18, y: 2.9878154e-17, z: 0.005951173, w: 0.9999823}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKFixedOrientRoot_M
+      parentName: Girl_03_3_updated:IKfake0Spine_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0.005951173, w: 0.9999823}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKAcRootFollowOffset_M
+      parentName: Girl_03_3_updated:IKFixedOrientRoot_M
+      position: {x: -5.684342e-16, y: 1.7763568e-17, z: 2.3665827e-32}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKSpRootFollowOffset_M
+      parentName: Girl_03_3_updated:IKFixedOrientRoot_M
+      position: {x: -2.842171e-16, y: 0, z: -1.5777218e-32}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKHandle
+      parentName: Girl_03_3_updated:IKSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKOffsetSpine2_M
+      parentName: Girl_03_3_updated:IKHandle
+      position: {x: 1.2426196e-16, y: 1.234958, z: -0.8201197}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKExtraSpine2_M
+      parentName: Girl_03_3_updated:IKOffsetSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKSpine2_M
+      parentName: Girl_03_3_updated:IKExtraSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKSpine2LocalOrient1_M
+      parentName: Girl_03_3_updated:IKSpine2_M
+      position: {x: -0, y: 0, z: 1.7763568e-17}
+      rotation: {x: 0.50197375, y: -0.49801844, z: -0.50197375, w: 0.49801844}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKSpine2LocalOrient2_M
+      parentName: Girl_03_3_updated:IKSpine2LocalOrient1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKOffsetConstrainedSpine1_M
+      parentName: Girl_03_3_updated:IKHandle
+      position: {x: -3.680352e-17, y: 1.056704, z: -0.8153023}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKhybridOffsetSpine1_M
+      parentName: Girl_03_3_updated:IKOffsetConstrainedSpine1_M
+      position: {x: -0, y: 0, z: 1.7763568e-17}
+      rotation: {x: 0.50197375, y: -0.49801844, z: -0.50197375, w: 0.49801844}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKOffsetSpine1_M
+      parentName: Girl_03_3_updated:IKhybridOffsetSpine1_M
+      position: {x: 2.842171e-16, y: -1.7763568e-17, z: 6.310887e-32}
+      rotation: {x: 0.50197375, y: -0.49801844, z: -0.50197375, w: -0.49801844}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKExtraSpine1_M
+      parentName: Girl_03_3_updated:IKOffsetSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKSpine1_M
+      parentName: Girl_03_3_updated:IKExtraSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKSpine1LocalOrient1_M
+      parentName: Girl_03_3_updated:IKSpine1_M
+      position: {x: 7.888609e-33, y: 0, z: 1.7763568e-17}
+      rotation: {x: 0.50197375, y: -0.49801844, z: -0.50197375, w: 0.49801844}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKSpine1LocalOrient2_M
+      parentName: Girl_03_3_updated:IKSpine1LocalOrient1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKhybridFollowSpine1_M
+      parentName: Girl_03_3_updated:IKhybridOffsetSpine1_M
+      position: {x: -1.4210854e-16, y: -1.4210854e-16, z: -1.2621774e-31}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKhybridExtraSpine1_M
+      parentName: Girl_03_3_updated:IKhybridFollowSpine1_M
+      position: {x: 2.842171e-16, y: 0, z: 6.310887e-32}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKhybridSpine1_M
+      parentName: Girl_03_3_updated:IKhybridExtraSpine1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKhybridOffsetSpine2_M
+      parentName: Girl_03_3_updated:IKhybridSpine1_M
+      position: {x: -0.17821033, y: -0.0062273326, z: -2.0167317e-16}
+      rotation: {x: 0, y: 0, z: 0.046176586, w: 0.9989333}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKhybridExtraSpine2_M
+      parentName: Girl_03_3_updated:IKhybridOffsetSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKhybridSpine2_M
+      parentName: Girl_03_3_updated:IKhybridExtraSpine2_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKhybridOffsetSpine3_M
+      parentName: Girl_03_3_updated:IKhybridSpine2_M
+      position: {x: -0.17797163, y: -0.010831234, z: -2.0020812e-16}
+      rotation: {x: 0, y: 0, z: 0.0567231, w: 0.99838996}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKhybridExtraSpine3_M
+      parentName: Girl_03_3_updated:IKhybridOffsetSpine3_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKhybridSpine3_M
+      parentName: Girl_03_3_updated:IKhybridExtraSpine3_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKOffsetSpine3_M
+      parentName: Girl_03_3_updated:IKhybridSpine3_M
+      position: {x: -0, y: -7.105427e-17, z: -1.2621774e-31}
+      rotation: {x: -0.44813734, y: 0.546967, z: 0.44813734, w: 0.546967}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKExtraSpine3_M
+      parentName: Girl_03_3_updated:IKOffsetSpine3_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKSpine3_M
+      parentName: Girl_03_3_updated:IKExtraSpine3_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKSpine3LocalOrient1_M
+      parentName: Girl_03_3_updated:IKSpine3_M
+      position: {x: -0, y: -2.842171e-16, z: 7.9936054e-17}
+      rotation: {x: 0.45594063, y: -0.54047954, z: -0.45594063, w: 0.54047954}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKSpine3LocalOrient2_M
+      parentName: Girl_03_3_updated:IKSpine3LocalOrient1_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IKScalerRoot_M
+      parentName: Girl_03_3_updated:IKHandle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:FKIKSystem
+      parentName: Girl_03_3_updated:MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:FKIKParentConstraintSpine_M
+      parentName: Girl_03_3_updated:FKIKSystem
+      position: {x: -2.6073504e-17, y: 1.0737481, z: -0.7507339}
+      rotation: {x: 0.31378832, y: -0.6336694, z: -0.31378832, w: 0.6336694}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:FKIKSpine_M
+      parentName: Girl_03_3_updated:FKIKParentConstraintSpine_M
+      position: {x: -0.20109335, y: 5.3290704e-17, z: 0.35765967}
+      rotation: {x: 0.50197375, y: -0.49801844, z: -0.50197375, w: -0.49801844}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:DeformationSystem
+      parentName: Girl_03_3_updated:Group
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:Root_M
+      parentName: Girl_03_3_updated:DeformationSystem
+      position: {x: -2.6073504e-17, y: 1.8904881, z: 0.049126208}
+      rotation: {x: -0.50197375, y: 0.49801844, z: 0.50197375, w: -0.49801844}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1.0000002}
+    - name: Girl_03_3_updated:RootPart1_M
+      parentName: Girl_03_3_updated:Root_M
+      position: {x: -0.097176805, y: 2.6645352e-17, z: -7.6078746e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: Girl_03_3_updated:Spine1_M
+      parentName: Girl_03_3_updated:RootPart1_M
+      position: {x: -0.097176805, y: -1.4210854e-16, z: -5.303519e-10}
+      rotation: {x: 0.000000029802322, y: -0.000000059604645, z: -0.102764815, w: -0.9947057}
+      scale: {x: 0.9999995, y: 0.99999905, z: 0.99999976}
+    - name: Girl_03_3_updated:Chest_M
+      parentName: Girl_03_3_updated:Spine1_M
+      position: {x: -0.16352396, y: 0, z: -2.4868996e-16}
+      rotation: {x: 0.000000024411657, y: -0.00000006200778, z: -0.014350818, w: 0.99989706}
+      scale: {x: 1.0000005, y: 1.0000011, z: 1}
+    - name: Girl_03_3_updated:Scapula_L
+      parentName: Girl_03_3_updated:Chest_M
+      position: {x: -0.37322554, y: -0.029227454, z: 0.13701269}
+      rotation: {x: -0.8105232, y: 0.07572806, z: -0.57910717, w: -0.044185735}
+      scale: {x: 1.0000015, y: 1.000001, z: 1.0000002}
+    - name: Girl_03_3_updated:Shoulder_L
+      parentName: Girl_03_3_updated:Scapula_L
+      position: {x: 0.13978845, y: -4.1211477e-15, z: 0}
+      rotation: {x: -0.011224489, y: -0.16023418, z: 0.012036048, w: -0.9869419}
+      scale: {x: 1.0000043, y: 1.0000019, z: 1.000002}
+    - name: Girl_03_3_updated:Elbow_L
+      parentName: Girl_03_3_updated:Shoulder_L
+      position: {x: 0.54938, y: -2.2026825e-15, z: -2.2737367e-15}
+      rotation: {x: 0.00012476552, y: 0.0019011043, z: -0.038230754, w: 0.9992672}
+      scale: {x: 1.0000012, y: 1.0000007, z: 1.0000005}
+    - name: Girl_03_3_updated:Wrist_L
+      parentName: Girl_03_3_updated:Elbow_L
+      position: {x: 0.47047782, y: -4.2632563e-16, z: 0}
+      rotation: {x: -0.009529435, y: -0.007126825, z: 0.025121234, w: 0.99961364}
+      scale: {x: 0.9999994, y: 0.9999989, z: 1.0000005}
+    - name: Girl_03_3_updated:MiddleFinger1_L
+      parentName: Girl_03_3_updated:Wrist_L
+      position: {x: 0.18627433, y: 0, z: -1.7053025e-15}
+      rotation: {x: 0.0029031527, y: -0.058085416, z: 0.04285548, w: 0.9973872}
+      scale: {x: 1.0000006, y: 1.0000011, z: 0.99999964}
+    - name: Girl_03_3_updated:MiddleFinger2_L
+      parentName: Girl_03_3_updated:MiddleFinger1_L
+      position: {x: 0.062293056, y: 7.105427e-17, z: 2.2737367e-15}
+      rotation: {x: 0.00087639457, y: -0.041206107, z: -0.00062764063, w: 0.99915016}
+      scale: {x: 0.99999845, y: 0.99999857, z: 0.9999994}
+    - name: Girl_03_3_updated:MiddleFinger3_L
+      parentName: Girl_03_3_updated:MiddleFinger2_L
+      position: {x: 0.05142061, y: -7.105427e-17, z: 1.1368684e-15}
+      rotation: {x: 0.0004611523, y: 0.009961222, z: 0.014712546, w: 0.99984205}
+      scale: {x: 1.0000023, y: 1.0000019, z: 1.0000014}
+    - name: Girl_03_3_updated:MiddleFinger4_L
+      parentName: Girl_03_3_updated:MiddleFinger3_L
+      position: {x: 0.03199572, y: -5.3290704e-17, z: -5.684342e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:ThumbFinger1_L
+      parentName: Girl_03_3_updated:Wrist_L
+      position: {x: 0.05660536, y: -0.039626595, z: 0.0138314245}
+      rotation: {x: 0.43164986, y: -0.090753704, z: 0.3357538, w: -0.8322929}
+      scale: {x: 0.9999994, y: 0.9999964, z: 1.0000015}
+    - name: Girl_03_3_updated:ThumbFinger2_L
+      parentName: Girl_03_3_updated:ThumbFinger1_L
+      position: {x: 0.06034763, y: -1.4210854e-15, z: 2.5579537e-15}
+      rotation: {x: -0.0060627135, y: -0.037634037, z: 0.008828624, w: 0.99923426}
+      scale: {x: 1.0000018, y: 0.9999989, z: 0.99999917}
+    - name: Girl_03_3_updated:ThumbFinger3_L
+      parentName: Girl_03_3_updated:ThumbFinger2_L
+      position: {x: 0.05236939, y: 1.7053025e-15, z: -7.105427e-16}
+      rotation: {x: -0.0047841924, y: -0.040320966, z: -0.004467579, w: 0.99916536}
+      scale: {x: 1.0000006, y: 1.0000011, z: 1.0000055}
+    - name: Girl_03_3_updated:ThumbFinger4_L
+      parentName: Girl_03_3_updated:ThumbFinger3_L
+      position: {x: 0.053795617, y: -1.1368684e-15, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:IndexFinger1_L
+      parentName: Girl_03_3_updated:Wrist_L
+      position: {x: 0.18270013, y: -0.038476203, z: -0.0011703373}
+      rotation: {x: 0.008825599, y: 0.061900042, z: 0.003804857, w: -0.99803615}
+      scale: {x: 0.99999964, y: 1.0000002, z: 0.99999964}
+    - name: Girl_03_3_updated:IndexFinger2_L
+      parentName: Girl_03_3_updated:IndexFinger1_L
+      position: {x: 0.061414022, y: 7.105427e-17, z: 2.2737367e-15}
+      rotation: {x: -0.00571732, y: -0.02892812, z: 0.00965521, w: 0.9995185}
+      scale: {x: 0.9999993, y: 0.99999917, z: 1}
+    - name: Girl_03_3_updated:IndexFinger3_L
+      parentName: Girl_03_3_updated:IndexFinger2_L
+      position: {x: 0.036280036, y: 2.1316282e-16, z: -5.684342e-16}
+      rotation: {x: -0.014018493, y: 0.0009397529, z: 0.0014149398, w: 0.99990034}
+      scale: {x: 1.0000001, y: 0.99999976, z: 0.9999999}
+    - name: Girl_03_3_updated:IndexFinger4_L
+      parentName: Girl_03_3_updated:IndexFinger3_L
+      position: {x: 0.034134176, y: 1.0658141e-16, z: -1.1368684e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:Cup_L
+      parentName: Girl_03_3_updated:Wrist_L
+      position: {x: 0.057287123, y: 0.028535957, z: -0.0014808935}
+      rotation: {x: 0.039272428, y: 0.008590134, z: 0.044332456, w: -0.9982077}
+      scale: {x: 1.0000044, y: 1.0000019, z: 1.000003}
+    - name: Girl_03_3_updated:PinkyFinger1_L
+      parentName: Girl_03_3_updated:Cup_L
+      position: {x: 0.10867736, y: 0.04671729, z: 0.012359987}
+      rotation: {x: 0.03835032, y: -0.02874359, z: 0.11503142, w: 0.9922051}
+      scale: {x: 0.99999714, y: 0.9999968, z: 0.9999969}
+    - name: Girl_03_3_updated:PinkyFinger2_L
+      parentName: Girl_03_3_updated:PinkyFinger1_L
+      position: {x: 0.028285056, y: 7.105427e-17, z: 1.1368684e-15}
+      rotation: {x: 0.0009610967, y: 0.006499476, z: -0.033837765, w: 0.99940574}
+      scale: {x: 1.0000014, y: 0.9999999, z: 1.0000002}
+    - name: Girl_03_3_updated:PinkyFinger3_L
+      parentName: Girl_03_3_updated:PinkyFinger2_L
+      position: {x: 0.029077504, y: 2.1316282e-16, z: 5.684342e-16}
+      rotation: {x: -0.014755789, y: -0.01834187, z: -0.006702084, w: -0.9997004}
+      scale: {x: 1, y: 1.0000014, z: 1.0000008}
+    - name: Girl_03_3_updated:PinkyFinger4_L
+      parentName: Girl_03_3_updated:PinkyFinger3_L
+      position: {x: 0.027799152, y: -1.0658141e-16, z: -1.1368684e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:RingFinger1_L
+      parentName: Girl_03_3_updated:Cup_L
+      position: {x: 0.11934885, y: 0.016947577, z: 0.0025458785}
+      rotation: {x: -0.050702706, y: 0.04447616, z: -0.10587215, w: -0.9920898}
+      scale: {x: 1.0000018, y: 1.0000005, z: 1.0000001}
+    - name: Girl_03_3_updated:RingFinger2_L
+      parentName: Girl_03_3_updated:RingFinger1_L
+      position: {x: 0.05875034, y: -3.5527135e-16, z: -1.9895197e-15}
+      rotation: {x: -0.0012840097, y: -0.025645714, z: -0.0013636647, w: 0.9996693}
+      scale: {x: 0.9999975, y: 0.99999905, z: 0.99999785}
+    - name: Girl_03_3_updated:RingFinger3_L
+      parentName: Girl_03_3_updated:RingFinger2_L
+      position: {x: 0.038434844, y: 1.4210854e-16, z: -1.1368684e-15}
+      rotation: {x: 0.0031354462, y: 0.028583527, z: -0.014903935, w: 0.99947536}
+      scale: {x: 0.99999607, y: 0.9999981, z: 0.99999857}
+    - name: Girl_03_3_updated:RingFinger4_L
+      parentName: Girl_03_3_updated:RingFinger3_L
+      position: {x: 0.032364134, y: -3.5527136e-17, z: 5.684342e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:Scapula_R
+      parentName: Girl_03_3_updated:Chest_M
+      position: {x: -0.37322554, y: -0.029227454, z: -0.13701269}
+      rotation: {x: 0.075728044, y: 0.81052303, z: 0.044185758, w: -0.57910734}
+      scale: {x: 1.0000027, y: 1.0000015, z: 1.000001}
+    - name: Girl_03_3_updated:Shoulder_R
+      parentName: Girl_03_3_updated:Scapula_R
+      position: {x: -0.13978845, y: 3.8369305e-15, z: -1.4210854e-15}
+      rotation: {x: 0.011224481, y: 0.16023412, z: -0.0120361, w: 0.9869419}
+      scale: {x: 1.0000024, y: 1.0000013, z: 1.0000015}
+    - name: Girl_03_3_updated:Elbow_R
+      parentName: Girl_03_3_updated:Shoulder_R
+      position: {x: -0.54938, y: 2.131628e-15, z: 2.2737367e-15}
+      rotation: {x: 0.00012475622, y: 0.0019009854, z: -0.038230702, w: 0.9992672}
+      scale: {x: 0.99999845, y: 0.9999989, z: 0.99999964}
+    - name: Girl_03_3_updated:Wrist_R
+      parentName: Girl_03_3_updated:Elbow_R
+      position: {x: -0.47047782, y: 4.2632563e-16, z: -1.563194e-15}
+      rotation: {x: -0.009529434, y: -0.0071268324, z: 0.02512125, w: 0.99961364}
+      scale: {x: 1.0000037, y: 1.0000012, z: 1.0000017}
+    - name: Girl_03_3_updated:IndexFinger1_R
+      parentName: Girl_03_3_updated:Wrist_R
+      position: {x: -0.18270013, y: 0.038476203, z: 0.0011703373}
+      rotation: {x: -0.008825599, y: -0.061900057, z: -0.0038048597, w: 0.99803615}
+      scale: {x: 0.9999994, y: 1.0000001, z: 0.99999917}
+    - name: Girl_03_3_updated:IndexFinger2_R
+      parentName: Girl_03_3_updated:IndexFinger1_R
+      position: {x: -0.061414022, y: -2.842171e-16, z: -2.4158453e-15}
+      rotation: {x: -0.0057173367, y: -0.028928168, z: 0.009655225, w: 0.9995185}
+      scale: {x: 1.0000012, y: 1.0000008, z: 1.0000006}
+    - name: Girl_03_3_updated:IndexFinger3_R
+      parentName: Girl_03_3_updated:IndexFinger2_R
+      position: {x: -0.036280036, y: 0, z: -1.563194e-15}
+      rotation: {x: -0.0140185105, y: 0.0009397395, z: 0.0014148976, w: 0.99990034}
+      scale: {x: 1.0000036, y: 1.0000029, z: 1.0000027}
+    - name: Girl_03_3_updated:IndexFinger4_R
+      parentName: Girl_03_3_updated:IndexFinger3_R
+      position: {x: -0.034134176, y: -1.7763567e-16, z: 1.7053025e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:Cup_R
+      parentName: Girl_03_3_updated:Wrist_R
+      position: {x: -0.057287123, y: -0.028535957, z: 0.0014808935}
+      rotation: {x: -0.03927242, y: -0.008590132, z: -0.044332456, w: 0.9982077}
+      scale: {x: 0.9999995, y: 1.0000006, z: 0.99999964}
+    - name: Girl_03_3_updated:PinkyFinger1_R
+      parentName: Girl_03_3_updated:Cup_R
+      position: {x: -0.10867736, y: -0.04671729, z: -0.012359987}
+      rotation: {x: 0.03835019, y: -0.028743876, z: 0.11503192, w: 0.992205}
+      scale: {x: 0.9999987, y: 1.0000001, z: 0.9999999}
+    - name: Girl_03_3_updated:PinkyFinger2_R
+      parentName: Girl_03_3_updated:PinkyFinger1_R
+      position: {x: -0.028285056, y: 0, z: -4.2632563e-16}
+      rotation: {x: 0.00096118706, y: 0.006499544, z: -0.033837836, w: 0.99940574}
+      scale: {x: 1.0000011, y: 0.99999976, z: 1.0000004}
+    - name: Girl_03_3_updated:PinkyFinger3_R
+      parentName: Girl_03_3_updated:PinkyFinger2_R
+      position: {x: -0.029077504, y: -1.4210854e-16, z: -1.4210854e-16}
+      rotation: {x: 0.014755876, y: 0.018341826, z: 0.006702153, w: 0.99970037}
+      scale: {x: 1.0000008, y: 1.0000008, z: 1.0000011}
+    - name: Girl_03_3_updated:PinkyFinger4_R
+      parentName: Girl_03_3_updated:PinkyFinger3_R
+      position: {x: -0.027799152, y: 1.0658141e-16, z: 1.1368684e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:RingFinger1_R
+      parentName: Girl_03_3_updated:Cup_R
+      position: {x: -0.11934885, y: -0.016947577, z: -0.0025458785}
+      rotation: {x: 0.050702713, y: -0.044476423, z: 0.1058729, w: 0.99208975}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: Girl_03_3_updated:RingFinger2_R
+      parentName: Girl_03_3_updated:RingFinger1_R
+      position: {x: -0.05875034, y: 0, z: 1.847411e-15}
+      rotation: {x: -0.0012841016, y: -0.025645668, z: -0.001363702, w: 0.9996693}
+      scale: {x: 0.9999999, y: 0.99999917, z: 0.9999989}
+    - name: Girl_03_3_updated:RingFinger3_R
+      parentName: Girl_03_3_updated:RingFinger2_R
+      position: {x: -0.038434844, y: 7.105427e-17, z: 1.563194e-15}
+      rotation: {x: 0.003135506, y: 0.028583545, z: -0.014903958, w: 0.9994754}
+      scale: {x: 1.0000033, y: 1.0000021, z: 1.000001}
+    - name: Girl_03_3_updated:RingFinger4_R
+      parentName: Girl_03_3_updated:RingFinger3_R
+      position: {x: -0.032364134, y: -3.5527136e-17, z: -1.1368684e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:MiddleFinger1_R
+      parentName: Girl_03_3_updated:Wrist_R
+      position: {x: -0.18627433, y: -1.4210854e-16, z: 8.5265126e-16}
+      rotation: {x: 0.0029031385, y: -0.058085464, z: 0.042855404, w: 0.9973871}
+      scale: {x: 1.0000023, y: 1.0000012, z: 1.0000017}
+    - name: Girl_03_3_updated:MiddleFinger2_R
+      parentName: Girl_03_3_updated:MiddleFinger1_R
+      position: {x: -0.062293056, y: -1.4210854e-16, z: -2.842171e-16}
+      rotation: {x: 0.00087640574, y: -0.04120609, z: -0.0006275326, w: 0.99915016}
+      scale: {x: 1.0000007, y: 1.0000002, z: 1.0000007}
+    - name: Girl_03_3_updated:MiddleFinger3_R
+      parentName: Girl_03_3_updated:MiddleFinger2_R
+      position: {x: -0.05142061, y: 7.105427e-17, z: -1.2789769e-15}
+      rotation: {x: 0.00046120398, y: 0.00996118, z: 0.014712475, w: 0.99984205}
+      scale: {x: 0.9999994, y: 0.9999999, z: 0.9999999}
+    - name: Girl_03_3_updated:MiddleFinger4_R
+      parentName: Girl_03_3_updated:MiddleFinger3_R
+      position: {x: -0.03199572, y: 3.5527136e-17, z: -5.684342e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:ThumbFinger1_R
+      parentName: Girl_03_3_updated:Wrist_R
+      position: {x: -0.05660536, y: 0.039626595, z: -0.0138314245}
+      rotation: {x: -0.4316493, y: 0.090755045, z: -0.3357543, w: 0.832293}
+      scale: {x: 1.000002, y: 1.0000031, z: 0.99999857}
+    - name: Girl_03_3_updated:ThumbFinger2_R
+      parentName: Girl_03_3_updated:ThumbFinger1_R
+      position: {x: -0.06034763, y: 9.947598e-16, z: -1.847411e-15}
+      rotation: {x: -0.0060628895, y: -0.03763166, z: 0.00883107, w: 0.9992343}
+      scale: {x: 1.0000026, y: 1.0000007, z: 0.99999857}
+    - name: Girl_03_3_updated:ThumbFinger3_R
+      parentName: Girl_03_3_updated:ThumbFinger2_R
+      position: {x: -0.05236939, y: -1.4210854e-15, z: 7.105427e-16}
+      rotation: {x: -0.0047791153, y: -0.06074929, z: -0.0067314133, w: 0.99811894}
+      scale: {x: 1.0000023, y: 1.0000017, z: 0.99999976}
+    - name: Girl_03_3_updated:ThumbFinger4_R
+      parentName: Girl_03_3_updated:ThumbFinger3_R
+      position: {x: -0.053795617, y: 1.7053025e-15, z: 1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:Neck_M
+      parentName: Girl_03_3_updated:Chest_M
+      position: {x: -0.4769165, y: 5.684342e-16, z: 9.015011e-16}
+      rotation: {x: -0, y: -7.1054274e-15, z: 0.178875, w: -0.9838718}
+      scale: {x: 1.000001, y: 1.0000013, z: 1.0000015}
+    - name: Girl_03_3_updated:Head_M
+      parentName: Girl_03_3_updated:Neck_M
+      position: {x: -0.118801706, y: -5.684342e-16, z: -1.0658141e-16}
+      rotation: {x: -0, y: -0, z: -0.085900545, w: -0.9963038}
+      scale: {x: 1.0000013, y: 1.0000006, z: 1.0000006}
+    - name: Girl_03_3_updated:HeadEnd_M
+      parentName: Girl_03_3_updated:Head_M
+      position: {x: -0.41112453, y: 3.5527136e-17, z: 1.854159e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:Eye_R
+      parentName: Girl_03_3_updated:Head_M
+      position: {x: -0.19032276, y: 0.12527864, z: -0.07452584}
+      rotation: {x: 0.000000009804877, y: 0.0000000099868975, z: -0.70057404, w: 0.7135797}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:EyeEnd_R
+      parentName: Girl_03_3_updated:Eye_R
+      position: {x: -0.06122879, y: 0, z: -1.1546319e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:Jaw_M
+      parentName: Girl_03_3_updated:Head_M
+      position: {x: -0.027238268, y: 0.10057388, z: -1.0658141e-16}
+      rotation: {x: 0, y: -0, z: -0.6165951, w: 0.78728044}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:JawEnd_M
+      parentName: Girl_03_3_updated:Jaw_M
+      position: {x: -0.087088704, y: 0, z: 1.9160727e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:Eye_L
+      parentName: Girl_03_3_updated:Head_M
+      position: {x: -0.19032276, y: 0.12527864, z: 0.07452584}
+      rotation: {x: 0.000000009804877, y: 0.0000000099868975, z: -0.70057404, w: 0.7135797}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:EyeEnd_L
+      parentName: Girl_03_3_updated:Eye_L
+      position: {x: -0.06122879, y: 0, z: 1.2434498e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:Hip_L
+      parentName: Girl_03_3_updated:Root_M
+      position: {x: 0.15199214, y: -0.047925327, z: 0.14965358}
+      rotation: {x: 0.9956898, y: 0.011473358, z: 0.010414898, w: -0.09144257}
+      scale: {x: 1.0000012, y: 1.0000005, z: 1.0000005}
+    - name: Girl_03_3_updated:Knee_L
+      parentName: Girl_03_3_updated:Hip_L
+      position: {x: 0.79547554, y: 1.4210854e-16, z: -9.592326e-16}
+      rotation: {x: -0.000000059604638, y: 0.000000029802319, z: 0.1007096, w: 0.99491584}
+      scale: {x: 0.99999976, y: 0.99999905, z: 0.9999999}
+    - name: Girl_03_3_updated:Ankle_L
+      parentName: Girl_03_3_updated:Knee_L
+      position: {x: 0.79782623, y: -1.7053025e-15, z: -6.0396133e-16}
+      rotation: {x: -0.030556113, y: -0.0072496533, z: -0.092511445, w: 0.9952163}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999994}
+    - name: Girl_03_3_updated:Toes_L
+      parentName: Girl_03_3_updated:Ankle_L
+      position: {x: 0.10894314, y: -0.21087095, z: -0.000000004831527}
+      rotation: {x: 0.009604819, y: -0.0020500012, z: 0.6149528, w: -0.78850275}
+      scale: {x: 0.99999857, y: 0.9999994, z: 0.9999987}
+    - name: Girl_03_3_updated:ToesEnd_L
+      parentName: Girl_03_3_updated:Toes_L
+      position: {x: 0.10329737, y: 1.8160405e-11, z: -0.0000000021727824}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl_03_3_updated:Hip_R
+      parentName: Girl_03_3_updated:Root_M
+      position: {x: 0.15199214, y: -0.047925334, z: -0.14965358}
+      rotation: {x: 0.011473372, y: -0.99568975, z: 0.0914425, w: 0.010414868}
+      scale: {x: 1.0000008, y: 1.0000007, z: 1.0000014}
+    - name: Girl_03_3_updated:Knee_R
+      parentName: Girl_03_3_updated:Hip_R
+      position: {x: -0.79547554, y: 1.4210854e-16, z: 4.973799e-16}
+      rotation: {x: -0.0000000061945684, y: -0.0000000010477379, z: 0.1007097, w: 0.99491584}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000001}
+    - name: Girl_03_3_updated:Ankle_R
+      parentName: Girl_03_3_updated:Knee_R
+      position: {x: -0.79782623, y: 4.973799e-16, z: 7.105427e-17}
+      rotation: {x: -0.030556038, y: -0.0072495937, z: -0.09251152, w: 0.99521625}
+      scale: {x: 0.9999989, y: 1.0000002, z: 0.99999857}
+    - name: Girl_03_3_updated:Toes_R
+      parentName: Girl_03_3_updated:Ankle_R
+      position: {x: -0.10894314, y: 0.21087095, z: 0.0000000016823288}
+      rotation: {x: -0.009604946, y: 0.0020498913, z: -0.6149528, w: 0.7885028}
+      scale: {x: 1.0000013, y: 1, z: 1.0000023}
+    - name: Girl_03_3_updated:ToesEnd_R
+      parentName: Girl_03_3_updated:Toes_R
+      position: {x: -0.10329737, y: 0, z: 1.7763567e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

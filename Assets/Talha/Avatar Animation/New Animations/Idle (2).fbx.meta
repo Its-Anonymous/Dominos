@@ -1,0 +1,1175 @@
+fileFormatVersion: 2
+guid: 63ea12065429a4dd0809184912ff25e0
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: GamePlay Idle
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: GamePlay Idle
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Male_Avatar_Shirt_Masks_03___10:Root_M
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:Hip_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:Hip_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:Knee_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:Knee_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:Ankle_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:Ankle_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:RootPart1_M
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:Spine1_M
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:Neck_M
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:Head_M
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:Scapula_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:Scapula_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:Shoulder_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:Shoulder_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:Elbow_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:Elbow_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:Wrist_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:Wrist_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:Toes_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:Toes_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:ThumbFinger1_L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:ThumbFinger2_L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:ThumbFinger3_L
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:IndexFinger1_L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:IndexFinger2_L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:IndexFinger3_L
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:MiddleFinger1_L
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:MiddleFinger2_L
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:MiddleFinger3_L
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:RingFinger1_L
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:RingFinger2_L
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:RingFinger3_L
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:PinkyFinger1_L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:PinkyFinger2_L
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:PinkyFinger3_L
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:ThumbFinger1_R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:ThumbFinger2_R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:ThumbFinger3_R
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:IndexFinger1_R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:IndexFinger2_R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:IndexFinger3_R
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:MiddleFinger1_R
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:MiddleFinger2_R
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:MiddleFinger3_R
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:RingFinger1_R
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:RingFinger2_R
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:RingFinger3_R
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:PinkyFinger1_R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:PinkyFinger2_R
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:PinkyFinger3_R
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_Avatar_Shirt_Masks_03___10:Chest_M
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Idle (2)(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:high_poly_body
+      parentName: Idle (2)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:Cavity
+      parentName: Male_Avatar_Shirt_Masks_03___10:high_poly_body
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:Hairs1
+      parentName: Male_Avatar_Shirt_Masks_03___10:high_poly_body
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:Male_Avatar1
+      parentName: Male_Avatar_Shirt_Masks_03___10:high_poly_body
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:Shirts
+      parentName: Idle (2)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:Default_Shirt
+      parentName: Male_Avatar_Shirt_Masks_03___10:Shirts
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C1_RoundNeck_01
+      parentName: Male_Avatar_Shirt_Masks_03___10:Shirts
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C1_RoundNeck_01_Mask
+      parentName: Male_Avatar_Shirt_Masks_03___10:C1_RoundNeck_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C1_Sleeveless_01
+      parentName: Male_Avatar_Shirt_Masks_03___10:Shirts
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C1_Sleeveless_01_Mask
+      parentName: Male_Avatar_Shirt_Masks_03___10:C1_Sleeveless_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C1_SportTshirt_01
+      parentName: Male_Avatar_Shirt_Masks_03___10:Shirts
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C1_SportTshirt_01_Mask
+      parentName: Male_Avatar_Shirt_Masks_03___10:C1_SportTshirt_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C1_Tanktop_01
+      parentName: Male_Avatar_Shirt_Masks_03___10:Shirts
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C1_Tanktop_01_Mask
+      parentName: Male_Avatar_Shirt_Masks_03___10:C1_Tanktop_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C1_Vneck_01
+      parentName: Male_Avatar_Shirt_Masks_03___10:Shirts
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C1_Vneck_01_Mask
+      parentName: Male_Avatar_Shirt_Masks_03___10:C1_Vneck_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C2_Button_Down_01
+      parentName: Male_Avatar_Shirt_Masks_03___10:Shirts
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C2_Button_Down_01_Mask
+      parentName: Male_Avatar_Shirt_Masks_03___10:C2_Button_Down_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C2_Long_Sleeve_jersey_01
+      parentName: Male_Avatar_Shirt_Masks_03___10:Shirts
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C2_Long_Sleeve_jersey_01_Mask
+      parentName: Male_Avatar_Shirt_Masks_03___10:C2_Long_Sleeve_jersey_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C2_Polo_Tshirt_01
+      parentName: Male_Avatar_Shirt_Masks_03___10:Shirts
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C2_Polo_Tshirt_01_Mask
+      parentName: Male_Avatar_Shirt_Masks_03___10:C2_Polo_Tshirt_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C3_Flannel_Shirt_01
+      parentName: Male_Avatar_Shirt_Masks_03___10:Shirts
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C3_Flannel_Shirt_01_Mask
+      parentName: Male_Avatar_Shirt_Masks_03___10:C3_Flannel_Shirt_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C3_Sweat_Shirt_01
+      parentName: Male_Avatar_Shirt_Masks_03___10:Shirts
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C3_Sweat_Shirt_01_Mask
+      parentName: Male_Avatar_Shirt_Masks_03___10:C3_Sweat_Shirt_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C3_Turtleneck_Shirt_01
+      parentName: Male_Avatar_Shirt_Masks_03___10:Shirts
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C3_Turtleneck_Shirt_01_Mask
+      parentName: Male_Avatar_Shirt_Masks_03___10:C3_Turtleneck_Shirt_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:Pants
+      parentName: Idle (2)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:Default_Pants
+      parentName: Male_Avatar_Shirt_Masks_03___10:Pants
+      position: {x: -0, y: 1.7062875, z: 0.010005369}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C1_Fit_Jeans_01
+      parentName: Male_Avatar_Shirt_Masks_03___10:Pants
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C1_Fit_Jeans_01_Mask
+      parentName: Male_Avatar_Shirt_Masks_03___10:C1_Fit_Jeans_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C1_Baggy_Jeans_01
+      parentName: Male_Avatar_Shirt_Masks_03___10:Pants
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C1_Baggy_Jeans_01_Mask
+      parentName: Male_Avatar_Shirt_Masks_03___10:C1_Baggy_Jeans_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C1_Range_Shot_01
+      parentName: Male_Avatar_Shirt_Masks_03___10:Pants
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C1_Range_Shot_01_mask
+      parentName: Male_Avatar_Shirt_Masks_03___10:C1_Range_Shot_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C2_Altona_wk_01
+      parentName: Male_Avatar_Shirt_Masks_03___10:Pants
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C2_Altona_wk_01_Mask
+      parentName: Male_Avatar_Shirt_Masks_03___10:C2_Altona_wk_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C2_Boot_Cut_01
+      parentName: Male_Avatar_Shirt_Masks_03___10:Pants
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C2_Boot_Cut_01_Mask
+      parentName: Male_Avatar_Shirt_Masks_03___10:C2_Boot_Cut_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C2_Nautical_Short_01
+      parentName: Male_Avatar_Shirt_Masks_03___10:Pants
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C2_Nautical_Short_01_Mask
+      parentName: Male_Avatar_Shirt_Masks_03___10:C2_Nautical_Short_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C3_Cargo_Pants_01
+      parentName: Male_Avatar_Shirt_Masks_03___10:Pants
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C3_Cargo_Pants_01_Mask
+      parentName: Male_Avatar_Shirt_Masks_03___10:C3_Cargo_Pants_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C3_Dress_Pants_01
+      parentName: Male_Avatar_Shirt_Masks_03___10:Pants
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C3_Dress_Pants_01_Mask
+      parentName: Male_Avatar_Shirt_Masks_03___10:C3_Dress_Pants_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C3_Jeans_Short_01
+      parentName: Male_Avatar_Shirt_Masks_03___10:Pants
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:C3_Jeans_Short_01_Mask
+      parentName: Male_Avatar_Shirt_Masks_03___10:C3_Jeans_Short_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:Group
+      parentName: Idle (2)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:DeformationSystem
+      parentName: Male_Avatar_Shirt_Masks_03___10:Group
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:Root_M
+      parentName: Male_Avatar_Shirt_Masks_03___10:DeformationSystem
+      position: {x: -0.000000014901161, y: 1.8717058, z: 0.043354988}
+      rotation: {x: -0.5082113, y: 0.4916516, z: 0.5082113, w: -0.4916516}
+      scale: {x: 1.0000052, y: 1.0000052, z: 1.0000001}
+    - name: Male_Avatar_Shirt_Masks_03___10:Hip_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:Root_M
+      position: {x: 0.18174385, y: -0.037356775, z: -0.1878564}
+      rotation: {x: 0.038469344, y: -0.99858713, z: 0.0046545267, w: 0.03636372}
+      scale: {x: 1.0000122, y: 1.0000107, z: 1.0000103}
+    - name: Male_Avatar_Shirt_Masks_03___10:Knee_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:Hip_R
+      position: {x: -0.73382384, y: 4.3076652e-16, z: 0}
+      rotation: {x: 0.000000026426275, y: 0.000000048428767, z: 0.074762195, w: 0.9972014}
+      scale: {x: 1.0000055, y: 1.0000048, z: 1.0000074}
+    - name: Male_Avatar_Shirt_Masks_03___10:Ankle_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:Knee_R
+      position: {x: -0.76673055, y: 1.7053025e-15, z: 5.684342e-16}
+      rotation: {x: 0.030168546, y: -0.037961215, z: -0.051457994, w: 0.9974974}
+      scale: {x: 1.0000033, y: 1.0000085, z: 1.0000085}
+    - name: Male_Avatar_Shirt_Masks_03___10:Toes_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:Ankle_R
+      position: {x: -0.15036884, y: 0.18363136, z: 0.0000000018990107}
+      rotation: {x: 0.0019257662, y: 0.0092970645, z: -0.6292978, w: 0.7771063}
+      scale: {x: 1.000004, y: 0.999997, z: 1.0000026}
+    - name: Male_Avatar_Shirt_Masks_03___10:ToesEnd_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:Toes_R
+      position: {x: -0.13903922, y: -2.3092638e-16, z: -1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:RootPart1_M
+      parentName: Male_Avatar_Shirt_Masks_03___10:Root_M
+      position: {x: -0.15340933, y: 1.1368684e-15, z: -3.5527136e-17}
+      rotation: {x: -0, y: -0, z: -0, w: -1}
+      scale: {x: 1.0000027, y: 1.0000027, z: 1.0000002}
+    - name: Male_Avatar_Shirt_Masks_03___10:Spine1_M
+      parentName: Male_Avatar_Shirt_Masks_03___10:RootPart1_M
+      position: {x: -0.15340933, y: 0, z: -7.105427e-17}
+      rotation: {x: -0, y: -0, z: 0.02816477, w: 0.9996033}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000006}
+    - name: Male_Avatar_Shirt_Masks_03___10:Chest_M
+      parentName: Male_Avatar_Shirt_Masks_03___10:Spine1_M
+      position: {x: -0.23472647, y: 1.1368684e-15, z: 1.0658141e-16}
+      rotation: {x: -0, y: -0, z: 0.016616402, w: 0.99986196}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000055}
+    - name: Male_Avatar_Shirt_Masks_03___10:Neck_M
+      parentName: Male_Avatar_Shirt_Masks_03___10:Chest_M
+      position: {x: -0.4570618, y: -1.7053025e-15, z: 8.5265126e-16}
+      rotation: {x: 0.000000029802322, y: 0.000000029802322, z: -0.1929128, w: 0.9812159}
+      scale: {x: 1.000005, y: 1.0000054, z: 1.0000023}
+    - name: Male_Avatar_Shirt_Masks_03___10:Head_M
+      parentName: Male_Avatar_Shirt_Masks_03___10:Neck_M
+      position: {x: -0.18395676, y: 0, z: 0}
+      rotation: {x: 0.000000028536121, y: 0.000000031016878, z: -0.15190727, w: -0.98839474}
+      scale: {x: 1.000015, y: 1.0000197, z: 1.000014}
+    - name: Male_Avatar_Shirt_Masks_03___10:HeadEnd_M
+      parentName: Male_Avatar_Shirt_Masks_03___10:Head_M
+      position: {x: -0.30834082, y: -3.7345127e-16, z: 7.131415e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:Eye_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:Head_M
+      position: {x: -0.08344214, y: 0.12812045, z: -0.06050498}
+      rotation: {x: 0, y: -0, z: -0.57875365, w: 0.8155024}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:EyeEnd_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:Eye_R
+      position: {x: -0.034956906, y: 5.684342e-16, z: -1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:Jaw_M
+      parentName: Male_Avatar_Shirt_Masks_03___10:Head_M
+      position: {x: 0.029157575, y: 0.058606267, z: -1.4210854e-16}
+      rotation: {x: 0, y: 0, z: -0.73986316, w: 0.6727574}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:JawEnd_M
+      parentName: Male_Avatar_Shirt_Masks_03___10:Jaw_M
+      position: {x: -0.13426347, y: 5.684342e-16, z: 3.1550386e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:Eye_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:Head_M
+      position: {x: -0.08344214, y: 0.12812045, z: 0.06050498}
+      rotation: {x: 0, y: -0, z: -0.57875365, w: 0.8155024}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:EyeEnd_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:Eye_L
+      position: {x: -0.034956906, y: 1.1368684e-15, z: 2.6645352e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:Scapula_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:Chest_M
+      position: {x: -0.25548023, y: -0.06737746, z: -0.22105461}
+      rotation: {x: 0.013413652, y: 0.7815584, z: 0.024378905, w: -0.62321115}
+      scale: {x: 1.000006, y: 1.000006, z: 1.000007}
+    - name: Male_Avatar_Shirt_Masks_03___10:Shoulder_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:Scapula_R
+      position: {x: -0.15186769, y: 2.5579537e-15, z: -5.684342e-16}
+      rotation: {x: -0.03593969, y: 0.086293794, z: 0.012520067, w: 0.9955425}
+      scale: {x: 0.99999475, y: 0.99999905, z: 1.0000064}
+    - name: Male_Avatar_Shirt_Masks_03___10:Elbow_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:Shoulder_R
+      position: {x: -0.48446432, y: 5.684342e-16, z: 1.847411e-15}
+      rotation: {x: 0.00097265845, y: 0.012748965, z: -0.03772767, w: 0.99920624}
+      scale: {x: 1.000022, y: 1.0000069, z: 1.00001}
+    - name: Male_Avatar_Shirt_Masks_03___10:Wrist_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:Elbow_R
+      position: {x: -0.49721277, y: -5.684342e-16, z: 4.2632563e-16}
+      rotation: {x: 0.02865319, y: -0.008320617, z: 0.00014095164, w: 0.9995549}
+      scale: {x: 1.0000199, y: 1.0000142, z: 1.0000093}
+    - name: Male_Avatar_Shirt_Masks_03___10:ThumbFinger1_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:Wrist_R
+      position: {x: -0.03277868, y: 0.059245456, z: -0.010799453}
+      rotation: {x: -0.58451533, y: 0.16148695, z: -0.3052524, w: 0.7342239}
+      scale: {x: 1.0000099, y: 0.9999999, z: 0.99999225}
+    - name: Male_Avatar_Shirt_Masks_03___10:ThumbFinger2_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:ThumbFinger1_R
+      position: {x: -0.08635667, y: -5.684342e-16, z: -8.5265126e-16}
+      rotation: {x: 0.0454843, y: -0.02751429, z: -0.028038438, w: 0.99819237}
+      scale: {x: 0.9999876, y: 0.9999889, z: 1.0000328}
+    - name: Male_Avatar_Shirt_Masks_03___10:ThumbFinger3_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:ThumbFinger2_R
+      position: {x: -0.051916245, y: 0, z: 1.7763567e-16}
+      rotation: {x: 0.04523846, y: -0.037394345, z: -0.01641877, w: 0.9981411}
+      scale: {x: 0.999998, y: 0.99999285, z: 1.0000116}
+    - name: Male_Avatar_Shirt_Masks_03___10:ThumbFinger4_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:ThumbFinger3_R
+      position: {x: -0.04314012, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:MiddleFinger1_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:Wrist_R
+      position: {x: -0.19567879, y: 3.907985e-16, z: 1.6697754e-15}
+      rotation: {x: 0.00879639, y: -0.06394743, z: 0.052423935, w: 0.9965366}
+      scale: {x: 1.0000036, y: 1.0000035, z: 1.0000074}
+    - name: Male_Avatar_Shirt_Masks_03___10:MiddleFinger2_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:MiddleFinger1_R
+      position: {x: -0.07121508, y: -4.2632563e-16, z: -5.684342e-16}
+      rotation: {x: 0.00057548087, y: -0.040147204, z: -0.0009772993, w: 0.99919313}
+      scale: {x: 0.99998057, y: 0.9999931, z: 0.99998546}
+    - name: Male_Avatar_Shirt_Masks_03___10:MiddleFinger3_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:MiddleFinger2_R
+      position: {x: -0.055351682, y: 4.973799e-16, z: 1.1368684e-15}
+      rotation: {x: 0.000009022884, y: 0.041227594, z: 0.0010030612, w: 0.9991493}
+      scale: {x: 1.0000002, y: 0.9999957, z: 1.0000103}
+    - name: Male_Avatar_Shirt_Masks_03___10:MiddleFinger4_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:MiddleFinger3_R
+      position: {x: -0.04505158, y: -8.881784e-18, z: -8.5265126e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:IndexFinger1_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:Wrist_R
+      position: {x: -0.20099033, y: 0.045710232, z: -0.008792483}
+      rotation: {x: -0.101546414, y: -0.07504012, z: 0.033825085, w: 0.9914198}
+      scale: {x: 1.0000058, y: 1.0000072, z: 1.0000087}
+    - name: Male_Avatar_Shirt_Masks_03___10:IndexFinger2_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:IndexFinger1_R
+      position: {x: -0.06860735, y: -2.842171e-16, z: 1.9895197e-15}
+      rotation: {x: -0.0015624091, y: -0.009347618, z: -0.003361702, w: 0.99994946}
+      scale: {x: 1.0000234, y: 1.0000201, z: 1.0000151}
+    - name: Male_Avatar_Shirt_Masks_03___10:IndexFinger3_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:IndexFinger2_R
+      position: {x: -0.045391064, y: -7.105427e-17, z: 0}
+      rotation: {x: -0.014500132, y: -0.041186307, z: -0.0029272225, w: 0.999042}
+      scale: {x: 0.9999858, y: 0.9999925, z: 0.99999356}
+    - name: Male_Avatar_Shirt_Masks_03___10:IndexFinger4_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:IndexFinger3_R
+      position: {x: -0.025949419, y: 2.842171e-16, z: -5.684342e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:Cup_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:Wrist_R
+      position: {x: -0.050055, y: -0.044210587, z: 0.0019125104}
+      rotation: {x: -0.016047293, y: 0.00403024, z: -0.07560677, w: 0.9970005}
+      scale: {x: 1.0000359, y: 1.0000145, z: 1.000022}
+    - name: Male_Avatar_Shirt_Masks_03___10:PinkyFinger1_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:Cup_R
+      position: {x: -0.12713076, y: -0.058737796, z: 0.0015378749}
+      rotation: {x: 0.15186654, y: -0.06642241, z: 0.111738, w: 0.9798159}
+      scale: {x: 1.000016, y: 0.9999844, z: 1.0000083}
+    - name: Male_Avatar_Shirt_Masks_03___10:PinkyFinger2_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:PinkyFinger1_R
+      position: {x: -0.040997814, y: -4.2632563e-16, z: 5.684342e-16}
+      rotation: {x: -0.002236664, y: 0.013184285, z: -0.002754607, w: 0.99990684}
+      scale: {x: 0.9999852, y: 1.0000213, z: 1.0000162}
+    - name: Male_Avatar_Shirt_Masks_03___10:PinkyFinger3_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:PinkyFinger2_R
+      position: {x: -0.027909009, y: 0, z: -5.684342e-16}
+      rotation: {x: 0.0037641674, y: 0.034859657, z: -0.004766211, w: 0.9993738}
+      scale: {x: 1.0000057, y: 0.9999993, z: 1.0000044}
+    - name: Male_Avatar_Shirt_Masks_03___10:PinkyFinger4_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:PinkyFinger3_R
+      position: {x: -0.020021586, y: 7.105427e-17, z: -5.684342e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:RingFinger1_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:Cup_R
+      position: {x: -0.13552423, y: -0.021809284, z: 0.0020473725}
+      rotation: {x: 0.08041008, y: -0.075962506, z: 0.104844004, w: 0.98831755}
+      scale: {x: 0.99999166, y: 1.0000305, z: 1.0000212}
+    - name: Male_Avatar_Shirt_Masks_03___10:RingFinger2_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:RingFinger1_R
+      position: {x: -0.0664732, y: -6.3948843e-16, z: -2.8421708e-15}
+      rotation: {x: -0.00056248903, y: -0.008422822, z: 0.00061939657, w: 0.99996424}
+      scale: {x: 1.0000083, y: 1.0000049, z: 1.000012}
+    - name: Male_Avatar_Shirt_Masks_03___10:RingFinger3_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:RingFinger2_R
+      position: {x: -0.04357474, y: 2.842171e-16, z: 0}
+      rotation: {x: -0.0005374998, y: 0.030064315, z: -0.0021779537, w: 0.99954545}
+      scale: {x: 1.0000067, y: 1.0000014, z: 0.99998677}
+    - name: Male_Avatar_Shirt_Masks_03___10:RingFinger4_R
+      parentName: Male_Avatar_Shirt_Masks_03___10:RingFinger3_R
+      position: {x: -0.03774231, y: -7.105427e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:Scapula_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:Chest_M
+      position: {x: -0.26986834, y: -0.07629643, z: 0.22285086}
+      rotation: {x: 0.78155845, y: -0.013413647, z: 0.6232112, w: 0.024378909}
+      scale: {x: 1.0000095, y: 1.0000075, z: 1.0000054}
+    - name: Male_Avatar_Shirt_Masks_03___10:Shoulder_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:Scapula_L
+      position: {x: 0.15186769, y: -2.8421708e-15, z: 2.8421708e-15}
+      rotation: {x: 0.03759487, y: -0.08599511, z: -0.018874343, w: -0.99540704}
+      scale: {x: 0.9999944, y: 0.9999974, z: 0.9999962}
+    - name: Male_Avatar_Shirt_Masks_03___10:Elbow_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:Shoulder_L
+      position: {x: 0.48446432, y: 1.1368684e-15, z: -2.7000624e-15}
+      rotation: {x: 0.0009795908, y: 0.0128406165, z: -0.037233926, w: 0.9992236}
+      scale: {x: 1.0000156, y: 1.0000107, z: 1.0000161}
+    - name: Male_Avatar_Shirt_Masks_03___10:Wrist_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:Elbow_L
+      position: {x: 0.49721277, y: -2.4868996e-16, z: -5.684342e-16}
+      rotation: {x: -0.028653257, y: 0.008320659, z: -0.000141114, w: -0.9995548}
+      scale: {x: 1.000005, y: 1.0000049, z: 1.0000031}
+    - name: Male_Avatar_Shirt_Masks_03___10:MiddleFinger1_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:Wrist_L
+      position: {x: 0.19567879, y: 0, z: -8.5265126e-16}
+      rotation: {x: 0.008796417, y: -0.063946955, z: 0.05242381, w: 0.9965366}
+      scale: {x: 0.99999654, y: 0.99999297, z: 0.99999356}
+    - name: Male_Avatar_Shirt_Masks_03___10:MiddleFinger2_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:MiddleFinger1_L
+      position: {x: 0.07121508, y: -2.842171e-16, z: 2.842171e-16}
+      rotation: {x: 0.0005754855, y: -0.04014473, z: -0.0009783355, w: 0.9991933}
+      scale: {x: 1.000015, y: 1.0000039, z: 0.99999857}
+    - name: Male_Avatar_Shirt_Masks_03___10:MiddleFinger3_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:MiddleFinger2_L
+      position: {x: 0.055351682, y: 1.4210854e-16, z: -1.7053025e-15}
+      rotation: {x: 0.000008994069, y: 0.04122473, z: 0.001002658, w: 0.9991494}
+      scale: {x: 0.99999845, y: 0.99999774, z: 1.0000099}
+    - name: Male_Avatar_Shirt_Masks_03___10:MiddleFinger4_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:MiddleFinger3_L
+      position: {x: 0.04505158, y: 8.881784e-18, z: 5.684342e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:ThumbFinger1_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:Wrist_L
+      position: {x: 0.03277868, y: -0.059245456, z: 0.010799453}
+      rotation: {x: 0.58409977, y: -0.16294023, z: 0.30460545, w: -0.7345023}
+      scale: {x: 1.0000029, y: 1.0000079, z: 1.0000249}
+    - name: Male_Avatar_Shirt_Masks_03___10:ThumbFinger2_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:ThumbFinger1_L
+      position: {x: 0.08635667, y: 1.1368684e-15, z: -5.684342e-16}
+      rotation: {x: 0.04548449, y: -0.02751113, z: -0.028036037, w: 0.99819255}
+      scale: {x: 1.00002, y: 0.9999988, z: 1.0000241}
+    - name: Male_Avatar_Shirt_Masks_03___10:ThumbFinger3_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:ThumbFinger2_L
+      position: {x: 0.051916245, y: -5.684342e-16, z: 5.684342e-16}
+      rotation: {x: 0.04523868, y: -0.037395313, z: -0.016420214, w: 0.998141}
+      scale: {x: 1.0000119, y: 1.0000215, z: 0.99997854}
+    - name: Male_Avatar_Shirt_Masks_03___10:ThumbFinger4_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:ThumbFinger3_L
+      position: {x: 0.04314012, y: 2.842171e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:IndexFinger1_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:Wrist_L
+      position: {x: 0.20099033, y: -0.045710232, z: 0.008792483}
+      rotation: {x: 0.101546556, y: 0.075040214, z: -0.03382515, w: -0.9914198}
+      scale: {x: 1.0000094, y: 0.99999654, z: 1.0000064}
+    - name: Male_Avatar_Shirt_Masks_03___10:IndexFinger2_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:IndexFinger1_L
+      position: {x: 0.06860735, y: 1.4210854e-16, z: -1.7053025e-15}
+      rotation: {x: -0.0015624836, y: -0.009347454, z: -0.0033617048, w: 0.99994946}
+      scale: {x: 0.99999857, y: 0.9999968, z: 0.9999975}
+    - name: Male_Avatar_Shirt_Masks_03___10:IndexFinger3_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:IndexFinger2_L
+      position: {x: 0.045391064, y: -2.842171e-16, z: 1.7053025e-15}
+      rotation: {x: -0.014500041, y: -0.04118332, z: -0.0029275618, w: 0.99904215}
+      scale: {x: 1.000023, y: 1.0000123, z: 1.0000134}
+    - name: Male_Avatar_Shirt_Masks_03___10:IndexFinger4_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:IndexFinger3_L
+      position: {x: 0.025949419, y: -2.842171e-16, z: 2.842171e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:Cup_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:Wrist_L
+      position: {x: 0.050055, y: 0.044210587, z: -0.0019125104}
+      rotation: {x: -0.016047405, y: 0.0040303837, z: -0.075606786, w: 0.99700046}
+      scale: {x: 1.0000207, y: 1.0000151, z: 1.0000103}
+    - name: Male_Avatar_Shirt_Masks_03___10:PinkyFinger1_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:Cup_L
+      position: {x: 0.12713076, y: 0.058737796, z: -0.0015378749}
+      rotation: {x: 0.15186648, y: -0.06642252, z: 0.11173801, w: 0.97981596}
+      scale: {x: 1.0000132, y: 1.000003, z: 1.0000081}
+    - name: Male_Avatar_Shirt_Masks_03___10:PinkyFinger2_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:PinkyFinger1_L
+      position: {x: 0.040997814, y: 0, z: -1.1368684e-15}
+      rotation: {x: -0.0022363958, y: 0.013184367, z: -0.002754756, w: 0.99990684}
+      scale: {x: 0.99999547, y: 1.0000039, z: 1.0000006}
+    - name: Male_Avatar_Shirt_Masks_03___10:PinkyFinger3_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:PinkyFinger2_L
+      position: {x: 0.027909009, y: 2.842171e-16, z: 0}
+      rotation: {x: 0.0037640706, y: 0.034859687, z: -0.0047661513, w: 0.9993738}
+      scale: {x: 1.0000011, y: 0.99999154, z: 0.9999887}
+    - name: Male_Avatar_Shirt_Masks_03___10:PinkyFinger4_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:PinkyFinger3_L
+      position: {x: 0.020021586, y: -7.105427e-17, z: -2.842171e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:RingFinger1_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:Cup_L
+      position: {x: 0.13552423, y: 0.021809284, z: -0.0020473725}
+      rotation: {x: 0.08041008, y: -0.07596301, z: 0.104843594, w: 0.9883176}
+      scale: {x: 1.0000129, y: 1.0000113, z: 1.0000125}
+    - name: Male_Avatar_Shirt_Masks_03___10:RingFinger2_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:RingFinger1_L
+      position: {x: 0.0664732, y: 5.684342e-16, z: 0}
+      rotation: {x: -0.0005623623, y: -0.008422955, z: 0.00061953155, w: 0.99996424}
+      scale: {x: 1.000007, y: 1.000005, z: 1.0000083}
+    - name: Male_Avatar_Shirt_Masks_03___10:RingFinger3_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:RingFinger2_L
+      position: {x: 0.04357474, y: -2.842171e-16, z: 0}
+      rotation: {x: -0.0005375383, y: 0.030064221, z: -0.0021779323, w: 0.9995455}
+      scale: {x: 0.99999976, y: 1.0000075, z: 1.0000124}
+    - name: Male_Avatar_Shirt_Masks_03___10:RingFinger4_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:RingFinger3_L
+      position: {x: 0.03774231, y: 7.105427e-17, z: 2.842171e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:Hip_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:Root_M
+      position: {x: 0.18174385, y: -0.037356775, z: 0.1878564}
+      rotation: {x: -0.99858713, y: -0.03846945, z: -0.036363736, w: 0.0046545714}
+      scale: {x: 1.0000134, y: 1.000014, z: 1.0000153}
+    - name: Male_Avatar_Shirt_Masks_03___10:Knee_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:Hip_L
+      position: {x: 0.73382384, y: -9.237055e-16, z: -1.2789769e-15}
+      rotation: {x: 0.00000007869675, y: 0.000000040017763, z: -0.07476229, w: -0.99720144}
+      scale: {x: 1.00001, y: 1.0000104, z: 1.0000068}
+    - name: Male_Avatar_Shirt_Masks_03___10:Ankle_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:Knee_L
+      position: {x: 0.76673055, y: -2.2737367e-15, z: 4.2632563e-16}
+      rotation: {x: 0.03016867, y: -0.037961174, z: -0.051458046, w: 0.9974974}
+      scale: {x: 1.0000105, y: 1.0000136, z: 1.0000123}
+    - name: Male_Avatar_Shirt_Masks_03___10:Toes_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:Ankle_L
+      position: {x: 0.15036884, y: -0.18363136, z: -0.0000000010068557}
+      rotation: {x: -0.0019256861, y: -0.009297057, z: 0.6292978, w: -0.77710634}
+      scale: {x: 1.0000077, y: 1.0000098, z: 1.0000058}
+    - name: Male_Avatar_Shirt_Masks_03___10:ToesEnd_L
+      parentName: Male_Avatar_Shirt_Masks_03___10:Toes_L
+      position: {x: 0.13903922, y: 2.3092638e-16, z: 1.7763567e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_Avatar_Shirt_Masks_03___10:Geometry
+      parentName: Male_Avatar_Shirt_Masks_03___10:Group
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
