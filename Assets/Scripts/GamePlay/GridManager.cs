@@ -999,7 +999,6 @@ public class GridManager : MonoBehaviour
     public IEnumerator GiveMultipleOfFiveScore(int score, Player player)
     {
         Debug.Log("GiveMultipleOfFiveScore");
-        player.ChangeAnimation(Global.clapping);
         yield return StartCoroutine(player.SpawnPlayerScoreBadge(score, GamePlayUIPanel.instance.FinalPopUpPos, player.playerPersonalData.playerRawImage.transform));
         yield return StartCoroutine(player._SetScore(score));
         Player winner = DecideWinner(player);
@@ -1050,8 +1049,6 @@ public class GridManager : MonoBehaviour
         GamePlayUIPanel.instance.ResultText.text = "Player " + winner.playerPersonalData.playerSeatID + " Win";
 
         bool iAmTheWinner = (winner.playerPersonalData.playerUserID == PlayerPersonalData.playerUserID) ? true : false;
-
-        winner.ChangeAnimation(Global.won);
 
         GamePlayUIPanel.instance.SetData(iAmTheWinner, PlayerPersonalData.playerTexture, GameRulesManager.currentSelectedGame_CoinsToPlay, winner);
 

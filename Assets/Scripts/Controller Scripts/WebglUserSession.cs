@@ -31,23 +31,10 @@ public class WebglUserSession : MonoBehaviour
 
         StartCoroutine(LoadLocalizedTextOnAndroid("config.json"));
 
-        //For UNITY_EDITOR and LocalHost Testing.
-        //if (string.IsNullOrEmpty(Global.GetBearerToken))
-        //{ Global.GetBearerToken = Global.testToken; }
-
-
         //For Production/Live Environment.
-#if UNITY_EDITOR
         if (string.IsNullOrEmpty(Global.GetBearerToken))
                Global.GetBearerToken = Global.testToken;
-#else
-            URLParameters.GetSearchParameters().TryGetValue("accessToken", out Global.testToken);
-            URLParameters.GetSearchParameters().TryGetValue("userid", out PlayerPersonalData.playerUserID);
-            URLParameters.GetSearchParameters().TryGetValue("tournamentId", out Global.tournamentID);
-            URLParameters.GetSearchParameters().TryGetValue("gameType", out Global.gameType);
-            URLParameters.GetSearchParameters().TryGetValue("network", out Global.network);
-            Global.GetBearerToken = Global.testToken;
-#endif
+
     }
 
 
@@ -78,7 +65,9 @@ public class WebglUserSession : MonoBehaviour
     private IEnumerator Start()
     {
         yield return new WaitUntil(() => !string.IsNullOrEmpty(Global.GetBearerToken) && !string.IsNullOrEmpty(WebServiceManager.baseURL));
-
-        WebServiceManager.instance.APIRequest(WebServiceManager.instance.getPlayerProfile, Method.GET, null, null, PlayerPersonalData.OnSuccessfullyProfileDownload, PlayerPersonalData.OnFailDownload, CACHEABLE.NULL, true, null);
+        if (PlayerPrefs.HasKey(Global.hasSessionKey))
+        {
+            WebServiceManager.instance.APIRequest(WebServiceManager.instance.getPlayerProfile, Method.GET, null, null, PlayerPersonalData.OnSuccessfullyProfileDownload, PlayerPersonalData.OnFailDownload, CACHEABLE.NULL, true, null);
+        }
     }
 }

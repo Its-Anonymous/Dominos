@@ -117,33 +117,14 @@ public class NakamaConnection : ScriptableObject
 
         Debug.Log("GameCenterSelectionScreen.selectedGameCenterID : " + GameCenterSelectionScreen.selectedGameCenterID.ToString());
 
-        if (GameRulesManager.currentSelectedGame_GameType == GameRulesManager.GameType.Tournament)
-        {
-            TryToAttemptToJoinTournamentMatch_Api(WebServiceManager.instance.attemptToJoinTournamentMatch);
 
-            stringProperties.Add("tournamentId", GameRulesManager.matchDetails.tournamentID);
-            stringProperties.Add("matchId", GameRulesManager.matchDetails.matchID);
-
-            query =
-                "+properties.engine:" + engine +
-                " +properties.gameRule:" + GameRule +
-                " +properties.gameType:" + GameRulesManager.currentSelectedGame_GameType.ToString() +
-                " +properties.gameCenter:" + GameCenterSelectionScreen.selectedGameCenterID.ToString() +
-                " +properties.tournamentId:" + GameRulesManager.matchDetails.tournamentID +
-                " +properties.matchId:" + GameRulesManager.matchDetails.matchID +
-                " +properties.coins:" + coinsToPlay +
-                " +properties.noOfPlayers:" + GameRulesManager.noOfPlayers;
-        }
-        else
-        {
-            query =
-                "+properties.engine:" + engine +
-                " +properties.gameRule:" + GameRule +
-                " +properties.gameType:" + GameRulesManager.currentSelectedGame_GameType.ToString() +
-                " +properties.gameCenter:" + GameCenterSelectionScreen.selectedGameCenterID.ToString() +
-                " +properties.coins:" + coinsToPlay +
-                " +properties.noOfPlayers:" + GameRulesManager.noOfPlayers;
-        }
+        query =
+            "+properties.engine:" + engine +
+            " +properties.gameRule:" + GameRule +
+            " +properties.gameType:" + GameRulesManager.currentSelectedGame_GameType.ToString() +
+            " +properties.gameCenter:" + GameCenterSelectionScreen.selectedGameCenterID.ToString() +
+            " +properties.coins:" + coinsToPlay +
+            " +properties.noOfPlayers:" + GameRulesManager.noOfPlayers;
 
         int minPlayer = GameRulesManager.currentSelectedGame_GameType == GameRulesManager.GameType.Tournament ? 2 : maxPlayers;
 

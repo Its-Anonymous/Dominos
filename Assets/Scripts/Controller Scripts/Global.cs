@@ -14,7 +14,6 @@ public static class Global
     public static string testToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2M2JkNGNiZDczNDVjYmU1YzZmZjNhNTEiLCJpYXQiOjE2ODcyNjkwMTZ9.xbRogv37Y9XPZnYtdoP1BDk0woR3tpSZzzLEAIlb_hY"; //Pre
     public static string tournamentID = "";//63fb4a5e587ccc9ed151e5cd //From Base URL
     public static string gameType = "";
-    public static string network = "";//"0x61";
 
     public const string AvatarBuilderScene = "AvatarConfigurator";
     public const string SplashScene = "SplashScene";
@@ -22,24 +21,6 @@ public static class Global
     public const string UIScene = "UI_Scene";
     public const string GameScene = "BotScene";
     public const string CustomizeAvatarScene = "InventoryBuilder";
-
-    public const string idle1       = "GamePlay_Idle";
-    //public const string idle2       = "GamePlay_Idle2";
-    public const string clapping    = "Dominos_Clapping";
-    //public const string clapping    = "Clapping";
-    public const string cheering    = "Cheering";
-    public const string won         = "Win";
-    public const string lost        = "Lost";
-
-    public enum SeosonalEnvironmentsEnum
-    {
-        winter,
-        summer,
-        autumn,
-        spring,
-        general,
-        none
-    }
 
     public static JsonSerializerSettings jsonSerializerSettings = new JsonSerializerSettings
     {
@@ -94,4 +75,21 @@ public static class Global
             bearerToken = value;
         }
     }
+
+
+
+    public const string UserID = "UserId";
+    public const string UserEmail = "UserEmail";
+    public const string UserPassword = "UserPassword";
+    public const string UserName = "UserName";
+    public const string AuthProvider = "AuthProvider";
+
+
+    public const string Apple       = "Apple";
+    public const string Custom      = "Custom";
+    public const string Facebook    = "Facebook";
+    public const string Guest       = "Guest";
+
+
+    public const string hasSessionKey = "hasSession";
 }

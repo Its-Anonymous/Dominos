@@ -84,8 +84,6 @@ namespace AvatarBuilder
         public void SelectAvatar(int gender)
         {
             AvatarConfigurator.instance.currentSelectedGender = (gender == 0) ? Gender.female : Gender.male;
-            MintHandler.currentSelectedAvatarPrice = (gender == 0) ? AvatarParent_FbxHolder.instance.cachedSelecteditem.femaleAvatarPrice : AvatarParent_FbxHolder.instance.cachedSelecteditem.maleAvatarPrice;
-            MintHandler.currentSelectedAvatarCode = (gender == 0) ? AvatarParent_FbxHolder.instance.cachedSelecteditem.femaleAvatarCode : AvatarParent_FbxHolder.instance.cachedSelecteditem.maleAvatarCode;
             AvatarParent_FbxHolder.instance.cachedSelecteditem.gender = AvatarConfigurator.instance.currentSelectedGender.ToString().ToLower();
             //Reset Selectable
             GameObject currentSelectable = (gender == 0) ? femaleSelectable : maleSelectable;

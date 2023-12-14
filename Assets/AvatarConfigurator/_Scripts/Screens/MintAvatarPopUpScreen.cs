@@ -32,24 +32,6 @@ namespace AvatarBuilder
 
         private void SetData()
         {
-            totalPriceTxt.text = priceTxt.text = MintHandler.currentSelectedAvatarPrice;
-
-            if (PlayerPersonalData.playerWhiteListed && PlayerPersonalData.discount > 0)
-            {
-                Debug.Log("Yes discount is available.. Discount = "  + PlayerPersonalData.discount);
-
-                double originalPrice = double.Parse(MintHandler.currentSelectedAvatarPrice);
-                double afterDiscount = originalPrice - (originalPrice * PlayerPersonalData.discount / 100);
-                dicountTxt.text = PlayerPersonalData.discount.ToString();
-                totalPriceTxt.text = afterDiscount.ToString("N2");
-            }
-            else
-            {
-                Debug.Log("Discount is NOT available.. ");
-                discountRow.SetActive(false);
-                dicountTxt.text = "0";
-            }
-            totalPriceTxt.text += " + GAS FEES";
 
         }
 
@@ -73,7 +55,6 @@ namespace AvatarBuilder
             byte[] byteArray = renderedTexture.EncodeToPNG();
             //System.IO.File.WriteAllBytes(Application.dataPath + "/cameracapture.png", byteArray);
 
-            MintHandler.UploadScreenShot_S3(byteArray);
         }
 
         internal void ClosePopUpDelegate()

@@ -103,14 +103,6 @@ public class GamePlayUIPanel : MonoBehaviour
 
     public IEnumerator _SetDataAfterDelay(bool isWin, Texture2D tex, double Coins, Player winner)
     {
-        if (GameRulesManager.currentSelectedGame_MatchType == GameRulesManager.MatchType.Multiplayer)
-        {
-            if (JS_Hook.instance != null)
-                JS_Hook.instance.UpdateCoinsEvent();
-            else
-                FindObjectOfType<JS_Hook>().UpdateCoinsEvent();
-        }
-
         Debug.Log("_SetDataAfterDelay Start");
 
         yield return new WaitForSeconds(2f);

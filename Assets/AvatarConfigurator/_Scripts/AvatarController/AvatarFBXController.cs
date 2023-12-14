@@ -64,19 +64,7 @@ namespace AvatarBuilder
                 Debug.LogError("HairParent Not Found, may be tag is missing on HairParent...");
             }
 
-            foreach (AssetsHolder item in GetComponent<AvatarScript>().assetsHolders)
-            {
-                if (item == this)
-                    continue; //Ingore Self
-                else
-                {
-                    string parentName = item.gameObject.name.ToLower();
-                    if (parentName.Contains("pant") || parentName.Contains("shirt") || parentName.Contains("cap") || parentName.Contains("shoe") || parentName.Contains("sock"))
-                    {
-                        WorkOnMasking(item.transform);
-                    }
-                }
-            }
+
             //Transform capParent = this.transform.Find("Caps") == null ? this.transform.Find("Cap") : this.transform.Find("Caps");
 
             //if (capParent != null)

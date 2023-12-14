@@ -263,12 +263,6 @@ namespace Dominos
         public string userGameModeInfo;
     }
 
-    [Serializable]
-    public partial class BlockChainData
-    {
-        [JsonProperty("character")]
-        public MintedSaveUserAssetsData mintedSaveUserAssetsData;
-    }
 
     [Serializable]
     public partial class UserGameModeInfo

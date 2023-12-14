@@ -23,16 +23,7 @@ public class QuitAppPopUpScreen : MonoBehaviour
 
     private void OnConfirmedQuitApp()
     {
-        DispatchEvent dispatchEvent = new DispatchEvent();
-        dispatchEvent.eventType = DispatchEvents.EXIT_GAME.ToString();
-        dispatchEvent.payload = null;
-
-        var dispatchEventJson = Serialize.ToJson(dispatchEvent);
-        Debug.Log("dispatchEventJson: " + dispatchEventJson);
-#if !UNITY_EDITOR
-                     PassTextParam(dispatchEventJson);
-#endif
-        ClosePopUpDelegate();
+        Debug.Log("OnConfirmedQuitApp");
     }
 
     internal void ClosePopUpDelegate()

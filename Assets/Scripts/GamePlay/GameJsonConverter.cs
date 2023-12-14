@@ -122,8 +122,14 @@ namespace Dominos
         [JsonProperty("email")]
         public string Email = "";
 
+        [JsonProperty("password")]
+        public string Password = "";
+
         [JsonProperty("userName")]
         public string UserName = "";
+
+        [JsonProperty("authProivder")]
+        public string AuthProvider = "";
 
         [JsonProperty("level")]
         public int Level = 0;
@@ -157,9 +163,6 @@ namespace Dominos
 
         [JsonProperty("className", NullValueHandling = NullValueHandling.Ignore)]
         public string playerClass = "";
-
-        [JsonProperty("character", NullValueHandling = NullValueHandling.Ignore)]
-        public MintedSaveUserAssetsData mintedSaveUserAssetsData;
     }
 
     public partial class PlayerPersonalDataJSON

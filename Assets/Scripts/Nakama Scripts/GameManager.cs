@@ -176,11 +176,6 @@ public class GameManager : MonoBehaviour
 
         if (currentMatch != null)
         {
-            if (JS_Hook.instance != null)
-                JS_Hook.instance.UpdateCoinsEvent();
-            else
-                FindObjectOfType<JS_Hook>().UpdateCoinsEvent();
-
             Debug.Log("SendMatchStateAsync: OpCodes.READY, matched.Self.Presence.Username: " + matched.Self.Presence.Username);
 
             Dictionary<string, string> dict = new Dictionary<string, string>();
@@ -235,42 +230,6 @@ public class GameManager : MonoBehaviour
             
             remotePlayerNetworkData.player.playerPersonalData.playerStates = playerStates;
             remotePlayerNetworkData.player.SetDataToProfile(playerStates, remotePlayerNetworkData.UserName, remotePlayerNetworkData.DisplayName, remotePlayerNetworkData.AvatarURL);
-        }
-
-        PlayerData playerData = remotePlayerNetworkData.player.playerPersonalData;
-
-        //int randValue = UnityEngine.Random.Range(0, 2); // 0 = Female, 1 = Male
-        //playerProfileData.SpawnCharacter(randValue);
-
-        //1) Download Json from token URi
-        //2) Then Select Avatar
-        //3) Then Load Blend
-
-        //Compare with wallet.
-        //MintData mintData = JS_Hook.instance.charactersMintData[playerProfileData.playerPersonalData.playerStates.blockChainData.avatarJson_S3URL];
-        //if(mintData == null) Debug.Log("this character is not available in wallet...");
-        //else
-
-        JS_Hook jS_Hook =  FindObjectOfType<JS_Hook>();
-        if (playerData.playerStates.blockChainData.mintedSaveUserAssetsData.mintedCharacter!=null)
-        {
-            Debug.Log("NFT Character Found...");
-            NFTUriAndToken charNftUriandToken = playerData.playerStates.blockChainData.mintedSaveUserAssetsData.mintedCharacter;
-            jS_Hook.GetRequest(charNftUriandToken, remotePlayerNetworkData.player.OnSuccessfullyCharacterDownloaded, jS_Hook.OnFail);
-
-
-            playerData.playerStates.blockChainData.mintedSaveUserAssetsData.mintedInventory.ForEach((NFTUriAndToken nftUriAndToken) =>
-            {
-                jS_Hook.GetRequest(nftUriAndToken, remotePlayerNetworkData.player.OnSuccessfullyCharacterDownloaded, jS_Hook.OnFail);
-            });
-
-        }
-        else
-        {
-            Debug.Log("NFT Character Not Found...");
-            WebServiceManager webServiceManager = FindObjectOfType<WebServiceManager>();
-            int randValue = UnityEngine.Random.Range(0, 2); // 0 = Female, 1 = Male
-            webServiceManager.APIRequest(randValue == 0 ? JS_Hook.defaultFemaleTokenURL : JS_Hook.defaultMaleTokenURL, Method.GET, null, null, remotePlayerNetworkData.player.OnSuccessfullyDummyCharacterDownloaded, jS_Hook.OnFail, CACHEABLE.NULL, true, null);
         }
     }
 
@@ -399,18 +358,8 @@ public class GameManager : MonoBehaviour
 
         if (currentMatch == null)
         {
-            //CancelMatchmaking();
-            if (GameRulesManager.currentSelectedGame_GameType == GameRulesManager.GameType.Tournament)
-            {
-                //Hit winning Api
-                Debug.Log("Hit winning Api Because Time Ends.");
-                NakamaConnection.NoPlayerEnterInTournamentMatch_Api(WebServiceManager.instance.opponentFailToJoinTournament);
-            }
-            else
-            {
-                GamePlayWaitingPopUp.instance.SetData("No Opponent Found.", false);
-                NoPlayerFoundReload();
-            }
+            GamePlayWaitingPopUp.instance.SetData("No Opponent Found.", false);
+            NoPlayerFoundReload();
         }
     }
 
@@ -432,12 +381,6 @@ public class GameManager : MonoBehaviour
                 GamePlayUIPanel.instance.SetData(true, PlayerPersonalData.playerTexture, GameRulesManager.currentSelectedGame_CoinsToPlay);
                 yield return new WaitForSeconds(2f);
             }
-
-
-            if (JS_Hook.instance != null)
-                JS_Hook.instance.GoToHome();
-            else
-                FindObjectOfType<JS_Hook>().GoToHome();
         }
         else
         {
@@ -1117,13 +1060,6 @@ public class GameManager : MonoBehaviour
         if (GameRulesManager.currentSelectedGame_GameType == GameRulesManager.GameType.SingleMatch)
         {
             SceneManager.LoadScene(Global.UIScene);
-        }
-        else //Because it's a tournament
-        {
-            if(JS_Hook.instance!=null)
-                JS_Hook.instance.GoToHome();
-            else
-                FindObjectOfType<JS_Hook>().GoToHome();
         }
     }
 

@@ -27,7 +27,7 @@ public class WinnerScreen : MonoBehaviour
 
         if (GameRulesManager.currentSelectedGame_GameType == GameRulesManager.GameType.Tournament)
         {//dispach event on tournament match ending
-            JS_Hook.instance.OnTournamentMatchEnded();
+            //JS_Hook.instance.OnTournamentMatchEnded();
         }
 
         if (GameRulesManager.currentSelectedGame_MatchType == GameRulesManager.MatchType.Multiplayer && GameManager.instace.NakamaConnection.Socket.IsConnected)

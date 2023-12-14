@@ -262,9 +262,6 @@ namespace AvatarBuilder
 
         [JsonProperty("shortCode")]
         public string shortCode = "";
-
-        [JsonProperty("attributes")]
-        public MintAttribute Attributes = new MintAttribute();
     }
 
     public partial class MintData
@@ -404,9 +401,6 @@ namespace AvatarBuilder
 
         [JsonProperty("gameCenter")]
         public string gameCenterID = "asassa";  //gameCenter ID.
-
-        [JsonProperty("character")]
-        public MintedSaveUserAssetsData mintedSaveUserAssetsData = new MintedSaveUserAssetsData();  //NFT Character and Assets
     }
 
     public partial class AttemptToJoinTournamentMatch
@@ -446,143 +440,6 @@ namespace AvatarBuilder
     }
     #endregion DispatchEvent
 
-
-    internal static class Converter
-    {
-        public static readonly JsonSerializerSettings Settings = new JsonSerializerSettings
-        {
-            MetadataPropertyHandling = MetadataPropertyHandling.Ignore,
-            DateParseHandling = DateParseHandling.None,
-            Converters =
-            {
-                new IsoDateTimeConverter { DateTimeStyles = DateTimeStyles.AssumeUniversal }
-            },
-        };
-    }
-}
-
-
-namespace AssetBuilder
-{
-    using System;
-    using System.Collections.Generic;
-    using System.Globalization;
-    using Newtonsoft.Json;
-    using Newtonsoft.Json.Converters;
-
-
-    #region Categories
-
-    public partial class GetCatagories
-    {
-        [JsonProperty("message")]
-        public string Message;
-
-        [JsonProperty("data")]
-        public List<JsonCatagory> Data;
-    }
-
-    /*
-        "_id": "63481cfa8c5d57181eb38d9d",
-        "name": "Nose",
-        "shortCode": "nose",
-        "id": 6
-    */
-    public partial class JsonCatagory
-    {
-        [JsonProperty("_id")]
-        public string mongoDBCategory_Id;
-
-        [JsonProperty("id")]
-        public string mapCategoryId;
-
-        [JsonProperty("name")]
-        public string Name;
-
-        [JsonProperty("shorCode")]
-        public string ShorCode;
-    }
-
-    public partial class GetCatagories
-    {
-        public static GetCatagories FromJson(string json) => JsonConvert.DeserializeObject<GetCatagories>(json, AvatarBuilder.Converter.Settings);
-    }
-    #endregion
-
-    //#region Mint Assets
-    public partial class MintAssets
-    {
-        [JsonProperty("data")]
-        public List<MintAssetsData> tokens = new List<MintAssetsData>();
-    }
-
-
-    [Serializable]
-    public partial class MintAssetsData
-
-    {
-        [JsonProperty("description")]
-        public string description { get; set; }
-
-        [JsonProperty("external_url")]
-        public string externalUrl { get; set; }
-
-        [JsonProperty("image")]
-        public string imageS3URL { get; set; }
-
-        [JsonProperty("name")]
-        public string name { get; set; }
-
-        [JsonProperty("price")]
-        public string price = "";
-
-        [JsonProperty("shortCode")]
-        public string shortCode = "";
-
-        [JsonProperty("type")]
-        public string type;
-
-        [JsonProperty("itemCategory")]
-        public string itemCategory;
-
-        [JsonProperty("itemclass")]
-        public string itemclass;
-
-        [JsonProperty("attributes")]
-        public MintAttribute attributes { get; set; }
-    }
-
-    public partial class MintAssetsData
-    {
-        public static MintAssetsData FromJson(string json) => JsonConvert.DeserializeObject<MintAssetsData>(json, Dominos.Converter.Settings);
-    }
-    //#endregion
-
-    [System.Serializable]
-    public class Attributes
-    {
-        public string shortCode { get; set; }
-        public object name { get; set; }
-        public string _id { get; set; }
-        public int id { get; set; }
-        public object gender { get; set; }
-        public List<Item> item { get; set; }
-    }
-
-    [System.Serializable]
-    public class AssetsTokenUri
-    {
-        public string price { get; set; }
-        public string shortCode { get; set; }
-        public string type { get; set; }
-        public string itemCategory { get; set; }
-        public string itemclass { get; set; }
-        public string description { get; set; }
-        public string external_url { get; set; }
-        public string image { get; set; }
-        public string name { get; set; }
-        public Attributes attributes { get; set; }
-    } 
 
     internal static class Converter
     {

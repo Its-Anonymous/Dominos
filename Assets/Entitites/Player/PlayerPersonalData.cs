@@ -10,6 +10,9 @@ using UnityEngine.SceneManagement;
 [Serializable]
 public class PlayerPersonalData : MonoBehaviour
 {
+    
+    public static string Player_OS;
+    public static string GameId;
     public static string playerUserID;
     public static int playerSeatID;
     public static int playerScore;
@@ -17,7 +20,9 @@ public class PlayerPersonalData : MonoBehaviour
     public static string playerName;
     public static string playerEmail;
     public static string playerPassword;
+    public static string authProvider;
     public static bool playerWhiteListed;
+
     public static float discount;
     public static string location;
     public static string profilePicURL;
@@ -26,6 +31,7 @@ public class PlayerPersonalData : MonoBehaviour
     public static Texture2D playerTexture;
     [Header("Nakama Details")]
     public static string sessionID;
+    internal static List<FriendDetail> facebookFriends;
 
     internal static void OnSuccessfullyProfileDownload(JObject keyValuePairs, long successCode)
     {
@@ -75,12 +81,6 @@ public class PlayerPersonalData : MonoBehaviour
         //WebServiceManager.instance.FindFlagSprite(playerStatesJson.playerFlagShortCode, playerStatesJson.flagSprite);
         playerStatesJson.classSprite = WebServiceManager.instance.FindClassSprite(playerStatesJson.playerClass);
 
-        BlockChainData blockChainData = new BlockChainData();
-        blockChainData.mintedSaveUserAssetsData = playerPersonalDataJson.Data.User.mintedSaveUserAssetsData;
-
-        playerStatesJson.blockChainData = blockChainData;
-        playerStatesJson.blockChainData.mintedSaveUserAssetsData = blockChainData.mintedSaveUserAssetsData;
-
         UserGameModeInfo userGameModeInfo = new UserGameModeInfo();
         userGameModeInfo.userGameModeScoreInfos = userGameModeScoreInfos;
 
@@ -95,23 +95,7 @@ public class PlayerPersonalData : MonoBehaviour
         if (SceneManager.GetActiveScene().name.Equals(Global.SplashScene))
         {
             Debug.Log("Global.gameType: " + Global.gameType);
-            if (Global.gameType.Equals(GameRulesManager.GameType.Tournament.ToString()))
-            {
-                Debug.Log("Hit Api to get tournament complete Details. Global.tournamentID: " + Global.tournamentID);
-                WebServiceManager.instance.APIRequest(WebServiceManager.instance.getTournamentMatchDetails + Global.tournamentID, Method.GET, null, null, SplashScreen.instance.OnSuccessfullyMatchDetailsDownload, SplashScreen.instance.OnFail, CACHEABLE.NULL, true, null);
-            }
-            else
-            {
-                SplashScreen.instance.OnLoadingCompleted();
-            }
-        }
-        else //Avatar Builder / Asset Builder / Inventory Builder
-        {
-            Debug.Log("Hit Api to get Promotion Discount");
-            Dictionary<string, object> keyValuePair = new Dictionary<string, object>();
-            keyValuePair.Add("network", Global.network);
-            Debug.Log("network: "  + Global.network);
-            WebServiceManager.instance.APIRequest(WebServiceManager.instance.getPromotionDiscount , Method.GET, null, keyValuePair, OnSuccessfullyWhiteListedDiscoountDownload, OnFailfullyWhiteListedDiscoountDownload, CACHEABLE.NULL, true, null);
+            SplashScreen.instance.OnLoadingCompleted();
         }
     }
 

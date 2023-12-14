@@ -112,8 +112,6 @@ public class SplashScreen : MonoBehaviour
             Debug.Log("arg1.ToString() => " + arg1.ToString());
             TournamentDetails matchDetails = TournamentDetails.FromJson(arg1.ToString());
             
-            PlayerPersonalData.playerStates.blockChainData.mintedSaveUserAssetsData = matchDetails.mintedSaveUserAssetsData;
-            WebServiceManager.instance.playerPersonalData.Data.User.mintedSaveUserAssetsData = matchDetails.mintedSaveUserAssetsData;
             GetMatchTypeForGameCallBack(matchDetails);
             if (matchDetails.matchStatus == "open")
             {

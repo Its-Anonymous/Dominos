@@ -39,12 +39,9 @@ public class WebServiceManager : MonoBehaviour
     [SerializeField]    internal string checkInternetConnectivity     = "";
     
     [Space]
-    [Header("Game Apis")]
-    [SerializeField] internal string getPromotionDiscount             = "";
-    [SerializeField] internal string getTournamentMatchDetails        = "";
-    [SerializeField] internal string attemptToJoinTournamentMatch     = "";
-    [SerializeField] internal string opponentFailToJoinTournament     = "";
-    [SerializeField] internal string getEnvironments                  = "";
+    [Header("New Apis")]
+    [SerializeField] internal string signUpFunction = "";
+    [SerializeField] internal string customLoginFunction = "";
 
     public static WebServiceManager instance;
 
@@ -311,8 +308,7 @@ public class WebServiceManager : MonoBehaviour
         if (Application.internetReachability == NetworkReachability.NotReachable)
         {
             print("RaiseOnWebServiceError >- from the response of fucntion named as " + getFunction + "() and error is NotReachable");
-            if(ErrorPopup.instance != null) ErrorPopup.instance.ShowMessage("There might be a network issue on your end, please try again.", false, JS_Hook.instance.GoToHome);
-            else UI_ScreenManager.instance.errorPopUpScreen.OpenCloseWarning(true, "There might be a network issue on your end, please try again.", false, JS_Hook.instance.GoToHome);
+            UI_ScreenManager.instance.errorPopUpScreen.OpenCloseWarning(true, "There might be a network issue on your end, please try again.", true);
             //onWebServiceError("Internet connection is required");
             return;
         }
@@ -322,14 +318,12 @@ public class WebServiceManager : MonoBehaviour
             if (error == "Error")
             {
                 print("RaiseOnWebServiceError >- from the response of fucntion named as " + getFunction + "() and error is Check Internet");
-                if (ErrorPopup.instance != null) ErrorPopup.instance.ShowMessage(error,false, JS_Hook.instance.GoToHome);
-                else UI_ScreenManager.instance.errorPopUpScreen.OpenCloseWarning(true, error,false,JS_Hook.instance.GoToHome);
+                UI_ScreenManager.instance.errorPopUpScreen.OpenCloseWarning(true, error,true);
             }
             else
             {
                 print("RaiseOnWebServiceError >- from the response of fucntion named as " + getFunction + "() and error is " + error);
-                if (ErrorPopup.instance != null) ErrorPopup.instance.ShowMessage("There might be a network issue on your end, please try again.", false, JS_Hook.instance.GoToHome);
-                else UI_ScreenManager.instance.errorPopUpScreen.OpenCloseWarning(true, "There might be a network issue on your end, please try again.", false,JS_Hook.instance.GoToHome);
+                UI_ScreenManager.instance.errorPopUpScreen.OpenCloseWarning(true, "There might be a network issue on your end, please try again.", true);
             }
             //onWebServiceError(error);
         }

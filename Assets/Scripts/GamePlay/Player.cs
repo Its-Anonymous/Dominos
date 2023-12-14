@@ -84,8 +84,6 @@ public class Player : MonoBehaviour
 
                 yield return new WaitForSeconds(2f);
                 SetDataToProfile(playerStates, "bot:"+playerPersonalData.playerSeatID, BotRandomData.currentBotName, BotRandomData.currentBotPic);
-
-                webServiceManager.APIRequest(randValue == 0 ? JS_Hook.defaultFemaleTokenURL : JS_Hook.defaultMaleTokenURL, Method.GET, null, null, OnSuccessfullyDummyCharacterDownloaded, OnFail, CACHEABLE.NULL, true, null);
             }
             else
             {
@@ -98,69 +96,11 @@ public class Player : MonoBehaviour
                 }
 
                 SetDataToProfile(PlayerPersonalData.playerStates, PlayerPersonalData.playerUserID, PlayerPersonalData.playerName, PlayerPersonalData.playerTexture);
-
-                if (!UI_ScreenManager.CheckAllNFTsExist())
-                {
-                    Debug.LogError("Some Assets Not Found. Loading Dummy Avatar.");
-                    //GamePlayWaitingPopUp.instance.SetData("Avatar Not Found.", false);
-                    //GamePlayWaitingPopUp.instance.EnableDisable(true);
-                    //yield break;
-                    int randValue = Random.Range(0, 2); // 0 = Female, 1 = Male
-                    string url = (randValue == 0) ? JS_Hook.defaultFemaleTokenURL : JS_Hook.defaultMaleTokenURL;
-
-                    webServiceManager.APIRequest(url, Method.GET, null, null, OnSuccessfullyDummyCharacterDownloaded, OnFail, CACHEABLE.NULL, true, null);
-                }
-                else
-                {
-                    Debug.Log("NFT Character Found... " + PlayerPersonalData.playerStates.blockChainData.mintedSaveUserAssetsData.mintedCharacter.Uri);
-                    NFTUriAndToken nftUriandToken = PlayerPersonalData.playerStates.blockChainData.mintedSaveUserAssetsData.mintedCharacter;
-                    JS_Hook jS_Hook = FindObjectOfType<JS_Hook>();
-                    jS_Hook.GetRequest(nftUriandToken, OnSuccessfullyCharacterDownloaded, OnFail);
-
-                    PlayerPersonalData.playerStates.blockChainData.mintedSaveUserAssetsData.mintedInventory.ForEach((NFTUriAndToken nftUriAndToken) =>
-                    {
-                        jS_Hook.GetRequest(nftUriAndToken, OnSuccessfullyCharacterDownloaded, jS_Hook.OnFail);
-                    });
-                }
             }
         }
     }
 
-    internal void SpawnCharacter(int randValue)
-    {
-        print("in SpawnCode ");
-        // var player = Instantiate(randValue == 0 ? femaleBot : maleBot, playerPhysicalPosition.currentplayerPosition);
-        playerPhysicalPosition.currentplayerPosition.transform.GetChild(0).transform.GetChild(randValue).gameObject.SetActive(true);
-        Debug.LogError(playerPhysicalPosition.currentplayerPosition.transform.GetChild(0).transform.GetChild(randValue).gameObject);
 
-        //SpawnPointManger.instance.points[playerPersonalData.playerSeatID].transform.GetChild(0).transform.GetChild(randValue).gameObject.SetActive(true); 
-    }
-
-    internal AvatarScript SpawnCharacter(string gender)
-    {
-        Debug.Log("gender: "  + gender);
-        int index = gender == Gender.female.ToString() ? 0 : 1;
-        print("SpawnCharacter index: " + index);
-        playerPhysicalPosition.currentplayerPosition.transform.GetChild(0).transform.GetChild(index).gameObject.SetActive(true);
-        playerPhysicalPosition.currentplayerPosition.GetComponentInChildren<AvatarParent_FbxHolder>().currentSelectedAvatar = playerPhysicalPosition.currentplayerPosition.transform.GetChild(0).transform.GetChild(index).GetComponent<AvatarFBXController>();
-        //Debug.LogError(playerPhysicalPosition.currentplayerPosition.transform.GetChild(0).transform.GetChild(index).gameObject);
-
-
-
-        return playerPhysicalPosition.currentplayerPosition.GetComponentInChildren<AvatarParent_FbxHolder>().currentSelectedAvatar.GetComponent<AvatarScript>();
-    }
-
-    internal void ChangeAnimation(string clipName)
-    {
-        try
-        {
-            playerPhysicalPosition.currentplayerPosition.GetComponentInChildren<AvatarFBXController>().ChangeAnimation(clipName);
-        }
-        catch (Exception ex)
-        {
-            Debug.LogError("ex: " + ex);
-        }
-    }
 
     public void SetDataToProfile(PlayerStates playerStates, string userID, string name, Texture2D texture2D = null)
     {
@@ -923,7 +863,6 @@ public class Player : MonoBehaviour
     void SkipTurnBody(string reason)
     {
         GamePlayUIPanel.instance.PopUpController(reason, playerPersonalData.playerTexture);
-        this.ChangeAnimation(Global.lost);
 
         GridManager.instance.TurnSwitch += 1;
         StartCoroutine(GridManager.instance._ChangeTurn());
@@ -1011,29 +950,6 @@ public class Player : MonoBehaviour
         GamePlayUIPanel.instance.playerStatesPopUp.EnableProfilePanel(playerStatesPopUp);
     }
 
-    public void OnSuccessfullyCharacterDownloaded(JObject arg1, long arg2, NFTUriAndToken uri)
-    {
-        if (ResponseStatus.Check(arg2))
-        {
-            Debug.Log("OnSuccessfullyCharacterDownloaded" + arg1.ToString());
-            MintData mintData = MintData.FromJson(arg1.ToString());
-
-            AvatarScript avatarScript = SpawnCharacter(mintData.Attributes.gender);
-            if (mintData.type.ToLower() == "avatar")
-            {
-                Gender selectedGender = (Gender)Enum.Parse(typeof(Gender), mintData.Attributes.gender);
-                LoadCharacterBlends(selectedGender, mintData.Attributes.DataList);
-            }
-            else
-            {
-                FindObjectOfType<AssetsConfiguratorManager>().DefaultTextureDownload(avatarScript, mintData.Attributes, false);
-            }
-        }
-        else
-        {
-            Debug.Log("OnSuccessfullyCharacterDownloaded Fail: " + arg1.ToString());
-        }
-    }
 
 
     public void OnSuccessfullyAssetsDownloaded(JObject arg1, long arg2, NFTUriAndToken uri)
@@ -1056,38 +972,11 @@ public class Player : MonoBehaviour
     }
 
 
-    public void OnSuccessfullyDummyCharacterDownloaded(JObject arg1, long arg2)
-    {
-        if (ResponseStatus.Check(arg2))
-        {
-            Debug.Log("OnSuccessfullyTokenDownloaded" + arg1.ToString());
-            MintData mintData = MintData.FromJson(arg1.ToString());
-
-            SpawnCharacter(mintData.Attributes.gender);
-
-            Gender selectedGender = (Gender)Enum.Parse(typeof(Gender), mintData.Attributes.gender);
-            LoadCharacterBlends(selectedGender, mintData.Attributes.DataList);
-
-        }
-        else
-        {
-            Debug.Log("OnSuccessfullyTokenDownloaded Fail: " + arg1.ToString());
-        }
-    }
-
     public void OnFail(string obj)
     {
         Debug.LogError("On Fail+++++++: " + obj);
     }
 
-    public void LoadCharacterBlends(Gender gender, List<ThumbnailJsonData> DataList)
-    {
-        AvatarParent_FbxHolder avatarParent_FbxHolder = playerPhysicalPosition.currentplayerPosition.GetComponentInChildren<AvatarParent_FbxHolder>();
-        avatarParent_FbxHolder.cachedSelecteditem = new CachedItemThumbnailJson();
-        avatarParent_FbxHolder.cachedSelecteditem.gender = gender.ToString();
-        avatarParent_FbxHolder.cachedSelecteditem.DataList = DataList;
-        avatarParent_FbxHolder.UpdateDataOnModel();
-    }
 }
 
 [Serializable]

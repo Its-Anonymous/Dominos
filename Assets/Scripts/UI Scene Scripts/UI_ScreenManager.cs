@@ -44,51 +44,7 @@ public class UI_ScreenManager : MonoBehaviour
         WebServiceManager.instance.APIRequest(WebServiceManager.instance.getPlayerProfile, Method.GET, null, null, PlayerPersonalData.OnSuccessfullyProfileDownload, PlayerPersonalData.OnFailDownload, CACHEABLE.NULL, true, null);
     }
 
-    public static bool CheckAllNFTsExist()
-    {
-        bool allNFTsExists = true;
-
-        var mintedSaveUserAssetsData = PlayerPersonalData.playerStates.blockChainData.mintedSaveUserAssetsData;
-
-        if (mintedSaveUserAssetsData == null)
-        {
-            Debug.LogError("mintedSaveUserAssetsData is null...");
-            //errorPopUpScreen.OpenCloseWarning(true, "Couldn't find the default Avatar.", false, JS_Hook.instance.GoToInventory);
-            allNFTsExists = false;
-            return allNFTsExists;
-        }
-
-        var playerDBCharacter = mintedSaveUserAssetsData.mintedCharacter;
-        var playerDBInventory = mintedSaveUserAssetsData.mintedInventory;
-
-        var playerWalletCharacter = JS_Hook.instance.characterMintData;
-        var playerWalletInventory = JS_Hook.instance.assetsMintDataDict;
-
-
-        //Check Character
-        if (playerDBCharacter == null || string.IsNullOrEmpty(playerDBCharacter.TokenID) || !playerWalletCharacter.ContainsKey(playerDBCharacter.TokenID))
-        {
-            // There is no default avatar you have set.
-            //errorPopUpScreen.OpenCloseWarning(true, "Couldn't find the default Avatar.", false, JS_Hook.instance.GoToInventory);
-            allNFTsExists = false;
-            return allNFTsExists;
-        }
-
-        //Check Assets
-        foreach (var item in playerDBInventory)
-        {
-            if (!playerWalletInventory.ContainsKey(item.TokenID))
-            {
-                // One or more assets do not exist in your wallet
-                //errorPopUpScreen.OpenCloseWarning(true, "Couldn't find the some Assets.", false, JS_Hook.instance.GoToInventory);
-                allNFTsExists = false;
-                break;
-            }
-        }
-        return allNFTsExists;
-    }
-
-    public static void OpenClosePopUp(GameObject panel, bool doOpen, bool showBlackBG)
+      public static void OpenClosePopUp(GameObject panel, bool doOpen, bool showBlackBG)
     {
         //Debug.Log("OpenClosePopUp" + panel,panel);
         if (doOpen)
